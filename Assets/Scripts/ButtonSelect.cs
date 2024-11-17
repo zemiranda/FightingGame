@@ -16,9 +16,10 @@ public class ButtonSelect : MonoBehaviour
             {
                 PlayerScript.Instance.SetPValue(1, newValue);
                 Debug.Log("p1 foi alterado.");
+                
             }
             // Se p1 já foi escolhido, modifica p2
-            else if (PlayerScript.Instance.p2 == 0)
+            else if (PlayerScript.Instance.p2 == 0 && PlayerScript.Instance.p1 != newValue)
             {
                 PlayerScript.Instance.SetPValue(2, newValue);
                 Debug.Log("p2 foi alterado.");
