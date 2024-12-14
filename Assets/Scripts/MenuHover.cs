@@ -38,20 +38,7 @@ public class MenuHover : MonoBehaviour
         {
             isP1Selected = PlayerScript.Instance.p1 != 0;  // Check if p1 is selected
             isP2Selected = PlayerScript.Instance.p2 != 0;  // Check if p2 is selected
-            if (isP1Selected)
-            {
-                // Change the sprite to hoverSprite
-                targetImage.sprite = hoverSprite;
-                SetImageAlpha(1f, targetImage);
-                return;
-            }
-            if (isP2Selected)
-            {
-                // Change the sprite to hoverSprite
-                targetImageD.sprite = hoverSprite;
-                SetImageAlpha(1f, targetImageD);
-                return;
-            }
+            
         }
     }
 
