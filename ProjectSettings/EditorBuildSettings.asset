@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Select Fighters.unity
     guid: 4ddcc8b8680950744b197ba9c6759236
+  - enabled: 1
+    path: Assets/Scenes/CutScene.unity
+    guid: 2baa6354c57064c47903b206a97e9fd8
   m_configObjects: {}

@@ -23,6 +23,8 @@ public class PlayerScript : MonoBehaviour
     public Sprite initialSprite;     // The initial sprite (set this in the inspector or find it at runtime)
     private bool isP2Selected = false;  // Track if p2 is selected
 
+
+   
     private void Update()
     {
         isP2Selected = p2 != 0;  // Check if p2 is selected
@@ -112,7 +114,8 @@ public class PlayerScript : MonoBehaviour
             PlayerPrefs.SetInt("Player2", p2);
             PlayerPrefs.Save();
             // Proceed to change the scene only when both players are chosen
-            SceneManager.LoadScene("Fight Scene"); // Replace with your actual scene name
+            Debug.Log($"players {p1}{p2}");
+            SceneManager.LoadScene("CutScene"); // Replace with your actual scene name
         }
         else
         {

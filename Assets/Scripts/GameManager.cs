@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -45,18 +46,18 @@ public class GameManager : MonoBehaviour
     public Sprite sprite2;
     public Sprite sprite3;
     public Sprite sprite4;
-    
+
 
     private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
         }
         else
         {
             Destroy(gameObject);
+            return;
         }
     }
 
@@ -81,9 +82,10 @@ public class GameManager : MonoBehaviour
                 break;
         
         }
-
+        Debug.Log($"skibi players {p1}{p2}");
         p1 = PlayerPrefs.GetInt("Player1", 0);
         p2 = PlayerPrefs.GetInt("Player2", 0);
+        Debug.Log($"skibidi players {p1}{p2}");
 
         Debug.Log($"Player 1 escolhido: {p1}");
         Debug.Log($"Player 2 escolhido: {p2}");
@@ -103,6 +105,10 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(delay);
 
         // Change the scene to "Select Fighters"
+        PlayerPrefs.SetInt("Player1", 0);
+        PlayerPrefs.SetInt("Player2", 0);
+        PlayerPrefs.Save();
+
         SceneManager.LoadScene("Select Fighters");
     }
 
