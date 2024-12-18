@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -93,6 +94,16 @@ public class GameManager : MonoBehaviour
 
 
         StartFight(p1 , p2);
+        StartCoroutine(ChangeSceneAfterDelay(10f));
+    }
+
+    IEnumerator ChangeSceneAfterDelay(float delay)
+    {
+        // Wait for the specified delay
+        yield return new WaitForSeconds(delay);
+
+        // Change the scene to "Select Fighters"
+        SceneManager.LoadScene("Select Fighters");
     }
 
     private void SetPlayerAttributes(GameObject player, int characterId, bool isPlayer1)
@@ -133,12 +144,12 @@ public class GameManager : MonoBehaviour
         }
         if (isPlayer1)
         {
-            player.transform.position = new Vector2(-15, -5);
+            player.transform.position = new Vector2(-14, -6);
 
         }
         else
         {
-            player.transform.position = new Vector2(-7, -5);
+            player.transform.position = new Vector2(-7, -6);
         }
 
         
@@ -157,37 +168,37 @@ public class GameManager : MonoBehaviour
         // Start the fight and set the winner value based on each case
         switch (p1)
         {
-            case 1:
+            case 1://DeadPool
                 switch (p2)
                 {
-                    case 1:
-                        animator1.SetBool("winner", true); // Set winner to true for player 1
-                        animator2.SetBool("winner", false); // Set winner to false for player 2
+                    case 1:// Deadpool
+                        animator1.SetBool("winner", true); //vitoria = true player 1
+                        animator2.SetBool("winner", false); // derrota = false player 2 
                         Debug.Log("Fight 1 vs 1 started!");
                         break;
-                    case 2:
-                        animator1.SetBool("winner", true);
-                        animator2.SetBool("winner", false);
+                    case 2:// Sailor Moon
+                        animator1.SetBool("winner", false);
+                        animator2.SetBool("winner", true);
                         Debug.Log("Fight 1 vs 2 started!");
                         break;
-                    case 3:
+                    case 3:// Lara Croft
                         animator1.SetBool("winner", true);
                         animator2.SetBool("winner", false);
                         Debug.Log("Fight 1 vs 3 started!");
                         break;
-                    case 4:
+                    case 4:// Black Widow
                         animator1.SetBool("winner", true);
                         animator2.SetBool("winner", false);
                         Debug.Log("Fight 1 vs 4 started!");
                         break;
-                    case 5:
-                        animator1.SetBool("winner", true);
-                        animator2.SetBool("winner", false);
+                    case 5:// Superman
+                        animator1.SetBool("winner", false);
+                        animator2.SetBool("winner", true);
                         Debug.Log("Fight 1 vs 5 started!");
                         break;
-                    case 6:
-                        animator1.SetBool("winner", true);
-                        animator2.SetBool("winner", false);
+                    case 6:// Darth Vader
+                        animator1.SetBool("winner", false);
+                        animator2.SetBool("winner", true);
                         Debug.Log("Fight 1 vs 6 started!");
                         break;
                     default:
@@ -196,37 +207,37 @@ public class GameManager : MonoBehaviour
                 }
                 break;
 
-            case 2:
+            case 2:// Sailor Moon
                 switch (p2)
                 {
                     case 1:
-                        animator1.SetBool("winner", false); // Player 1 loses, player 2 wins
-                        animator2.SetBool("winner", true);
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
                         Debug.Log("Fight 2 vs 1 started!");
                         break;
                     case 2:
-                        animator1.SetBool("winner", false);
+                        animator1.SetBool("winner", true);
                         animator2.SetBool("winner", false);
                         Debug.Log("Fight 2 vs 2 started!");
                         break;
                     case 3:
-                        animator1.SetBool("winner", false);
-                        animator2.SetBool("winner", true);
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
                         Debug.Log("Fight 2 vs 3 started!");
                         break;
                     case 4:
-                        animator1.SetBool("winner", false);
-                        animator2.SetBool("winner", true);
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
                         Debug.Log("Fight 2 vs 4 started!");
                         break;
                     case 5:
-                        animator1.SetBool("winner", false);
+                        animator1.SetBool("winner", true);
                         animator2.SetBool("winner", true);
                         Debug.Log("Fight 2 vs 5 started!");
                         break;
                     case 6:
-                        animator1.SetBool("winner", false);
-                        animator2.SetBool("winner", true);
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
                         Debug.Log("Fight 2 vs 6 started!");
                         break;
                     default:
@@ -249,13 +260,13 @@ public class GameManager : MonoBehaviour
                         Debug.Log("Fight 3 vs 2 started!");
                         break;
                     case 3:
-                        animator1.SetBool("winner", true);
+                        animator1.SetBool("winner", false);
                         animator2.SetBool("winner", true);
                         Debug.Log("Fight 3 vs 3 started!");
                         break;
                     case 4:
-                        animator1.SetBool("winner", true);
-                        animator2.SetBool("winner", false);
+                        animator1.SetBool("winner", false);
+                        animator2.SetBool("winner", true);
                         Debug.Log("Fight 3 vs 4 started!");
                         break;
                     case 5://superMan
@@ -264,8 +275,8 @@ public class GameManager : MonoBehaviour
                         Debug.Log("Fight 3 vs 5 started!");
                         break;
                     case 6:
-                        animator1.SetBool("winner", true);
-                        animator2.SetBool("winner", false);
+                        animator1.SetBool("winner", false);
+                        animator2.SetBool("winner", true);
                         Debug.Log("Fight 3 vs 6 started!");
                         break;
                     default:
@@ -274,12 +285,12 @@ public class GameManager : MonoBehaviour
                 }
                 break;
 
-            case 4:
+            case 4:// Black Widow
                 switch (p2)
                 {
                     case 1:
-                        animator1.SetBool("winner", true);
-                        animator2.SetBool("winner", false);
+                        animator1.SetBool("winner", false);
+                        animator2.SetBool("winner", true);
                         Debug.Log("Fight 4 vs 1 started!");
                         break;
                     case 2:
@@ -288,8 +299,8 @@ public class GameManager : MonoBehaviour
                         Debug.Log("Fight 4 vs 2 started!");
                         break;
                     case 3:
-                        animator1.SetBool("winner", false);
-                        animator2.SetBool("winner", true);
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
                         Debug.Log("Fight 4 vs 3 started!");
                         break;
                     case 4:
@@ -298,13 +309,13 @@ public class GameManager : MonoBehaviour
                         Debug.Log("Fight 4 vs 4 started!");
                         break;
                     case 5:
-                        animator1.SetBool("winner", true);
-                        animator2.SetBool("winner", false);
+                        animator1.SetBool("winner", false);
+                        animator2.SetBool("winner", true);
                         Debug.Log("Fight 4 vs 5 started!");
                         break;
                     case 6:
-                        animator1.SetBool("winner", true);
-                        animator2.SetBool("winner", false);
+                        animator1.SetBool("winner", false);
+                        animator2.SetBool("winner", true);
                         Debug.Log("Fight 4 vs 6 started!");
                         break;
                     default:
@@ -313,22 +324,22 @@ public class GameManager : MonoBehaviour
                 }
                 break;
 
-            case 5:
+            case 5:// Superman
                 switch (p2)
                 {
                     case 1:
-                        animator1.SetBool("winner", false);
-                        animator2.SetBool("winner", true);
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
                         Debug.Log("Fight 5 vs 1 started!");
                         break;
                     case 2:
                         animator1.SetBool("winner", true);
-                        animator2.SetBool("winner", false);
+                        animator2.SetBool("winner", true);
                         Debug.Log("Fight 5 vs 2 started!");
                         break;
                     case 3:
-                        animator1.SetBool("winner", false);
-                        animator2.SetBool("winner", true);
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
                         Debug.Log("Fight 5 vs 3 started!");
                         break;
                     case 4:
@@ -352,7 +363,7 @@ public class GameManager : MonoBehaviour
                 }
                 break;
 
-            case 6:
+            case 6:// Darth Vader
                 switch (p2)
                 {
                     case 1:

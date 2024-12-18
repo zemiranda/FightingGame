@@ -16,6 +16,8 @@ public class MenuHover : MonoBehaviour
     public Sprite initialNameSprite;
     public Sprite nameSprite;     // The initial sprite (set this in the inspector or find it at runtime)
 
+    public GameObject pressF;
+
     private bool isP1Selected = false;  // Track if p1 is selected
     private bool isP2Selected = false;  // Track if p2 is selected
 
@@ -27,6 +29,7 @@ public class MenuHover : MonoBehaviour
         SetImageAlpha(0f, targetImageD);
         SetImageAlpha(0f, nameImage);
         SetImageAlpha(0f, nameImageD);
+        pressF.SetActive(false);
         // Store the initial sprite when the script starts
         if (targetImage != null)
         {
@@ -69,7 +72,7 @@ public class MenuHover : MonoBehaviour
 
         if (isP1Selected && isP2Selected)
         {
-            return;  // Prevent hover effect on p1 if it’s already selected
+            return;
         }
 
         if (isP1Selected && !isP2Selected)

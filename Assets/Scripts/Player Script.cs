@@ -17,6 +17,8 @@ public class PlayerScript : MonoBehaviour
     public Image nameImage;        // The Image component that will be changed
     public Image nameImageD;        // The Image component that will be changed
 
+    public GameObject pressF;        
+
     public Sprite initialNameSprite;        // The Image component that will be changed
     public Sprite initialSprite;     // The initial sprite (set this in the inspector or find it at runtime)
     private bool isP2Selected = false;  // Track if p2 is selected
@@ -53,6 +55,7 @@ public class PlayerScript : MonoBehaviour
             SetImageAlpha(0f, targetImageD);
             nameImageD.sprite = initialNameSprite;
             SetImageAlpha(0f, nameImageD);
+            pressF.SetActive(false);
 
         }
         else if (p1 != 0) // Then deselect p1
@@ -94,6 +97,7 @@ public class PlayerScript : MonoBehaviour
         else if (pNumber == 2)
         {
             p2 = value;
+            pressF.SetActive(true);
             Debug.Log($"p2 foi definido para {value}");
         }
     }
