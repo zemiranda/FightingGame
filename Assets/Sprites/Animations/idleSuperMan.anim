@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: idleDeadPool
+  m_Name: idleSuperMan
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,7 +21,7 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -4784412131899372730, guid: 46085c4fcaefc18438dfef1403e013e8, type: 3}
+      value: {fileID: -5544427933548051415, guid: 62a6b6076aab6b4438e5940782f72e03, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -44,7 +44,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -4784412131899372730, guid: 46085c4fcaefc18438dfef1403e013e8, type: 3}
+    - {fileID: -5544427933548051415, guid: 62a6b6076aab6b4438e5940782f72e03, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

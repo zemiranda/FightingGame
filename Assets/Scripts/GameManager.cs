@@ -38,6 +38,14 @@ public class GameManager : MonoBehaviour
     public Sprite darthVaderSprite;
     public RuntimeAnimatorController darthVaderAnimator;
 
+    public SpriteRenderer spriteRenderer;
+
+    public Sprite sprite1;
+    public Sprite sprite2;
+    public Sprite sprite3;
+    public Sprite sprite4;
+    
+
     private void Awake()
     {
         if (Instance == null)
@@ -53,6 +61,26 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+    
+        int randomIndex = Random.Range(0, 6);
+
+        switch (randomIndex)
+        {
+            case 0:
+                spriteRenderer.sprite = sprite1;
+                break;
+            case 1:
+                spriteRenderer.sprite = sprite2;
+                break;
+            case 2:
+                spriteRenderer.sprite = sprite3;
+                break;
+            case 3:
+                spriteRenderer.sprite = sprite4;
+                break;
+        
+        }
+
         p1 = PlayerPrefs.GetInt("Player1", 0);
         p2 = PlayerPrefs.GetInt("Player2", 0);
 
@@ -60,14 +88,14 @@ public class GameManager : MonoBehaviour
         Debug.Log($"Player 2 escolhido: {p2}");
 
         // Configura os jogadores
-        SetPlayerAttributes(player1, p1);
-        SetPlayerAttributes(player2, p2);
+        SetPlayerAttributes(player1, p1, true);
+        SetPlayerAttributes(player2, p2, false);
 
 
         StartFight(p1 , p2);
     }
 
-    private void SetPlayerAttributes(GameObject player, int characterId)
+    private void SetPlayerAttributes(GameObject player, int characterId, bool isPlayer1)
     {
         SpriteRenderer spriteRenderer = player.GetComponent<SpriteRenderer>();
         Animator animator = player.GetComponent<Animator>();
@@ -103,7 +131,19 @@ public class GameManager : MonoBehaviour
                 Debug.LogWarning($"Character ID {characterId} inválido.");
                 break;
         }
+        if (isPlayer1)
+        {
+            player.transform.position = new Vector2(-15, -5);
+
+        }
+        else
+        {
+            player.transform.position = new Vector2(-7, -5);
+        }
+
+        
     }
+
 
     public void StartFight(int p1, int p2)
     {
@@ -198,9 +238,9 @@ public class GameManager : MonoBehaviour
             case 3://Lara croft
                 switch (p2)
                 {
-                    case 1:
-                        animator1.SetBool("winner", true);
-                        animator2.SetBool("winner", false);
+                    case 1://DeadPool
+                        animator1.SetBool("winner", false);
+                        animator2.SetBool("winner", true);
                         Debug.Log("Fight 3 vs 1 started!");
                         break;
                     case 2:
@@ -218,9 +258,9 @@ public class GameManager : MonoBehaviour
                         animator2.SetBool("winner", false);
                         Debug.Log("Fight 3 vs 4 started!");
                         break;
-                    case 5:
-                        animator1.SetBool("winner", true);
-                        animator2.SetBool("winner", false);
+                    case 5://superMan
+                        animator1.SetBool("winner", false);
+                        animator2.SetBool("winner", true);
                         Debug.Log("Fight 3 vs 5 started!");
                         break;
                     case 6:

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7821b1c5523d3b0498c9fe3da1c0dc3e
+guid: eaf7819af9907d148bd17fbcded8c392
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -35,7 +35,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 28
+    spritePixelsToUnits: 26
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638700923811861289
+  platformSettingsDirtyTick: 638700970404264366
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Darth vader-movimento_Frame_0
+  - name: laracroftdeath_Frame_0
     originalName: 
-    pivot: {x: 6.601695, y: -0.4}
+    pivot: {x: 0.6470588, y: -0.12068965}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 179
-      y: 94
-      width: 59
-      height: 60
-    spriteID: 591d1567bdc123d43a2e277cef4ed665
+      x: 159
+      y: 151
+      width: 34
+      height: 58
+    spriteID: ba9bc758afc70a945bac1c7ebeec69c9
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -140,19 +140,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 179, y: 94}
-  - name: Darth vader-movimento_Frame_1
+    uvTransform: {x: 159, y: 151}
+  - name: laracroftdeath_Frame_1
     originalName: 
-    pivot: {x: 7.79, y: -0.42372882}
+    pivot: {x: 0.6862746, y: -0.3207547}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 71
-      y: 162
-      width: 50
-      height: 59
-    spriteID: c48e110493419e94d9791e55d16d1014
+      x: 74
+      y: 157
+      width: 51
+      height: 53
+    spriteID: cdeb950ca58ae944cbbc248146738f78
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -160,19 +160,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 71, y: 162}
-  - name: Darth vader-movimento_Frame_2
+    uvTransform: {x: 74, y: 157}
+  - name: laracroftdeath_Frame_2
     originalName: 
-    pivot: {x: 8.234694, y: -0.42372882}
+    pivot: {x: 0.5068493, y: -0.78571427}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 129
-      y: 162
-      width: 49
-      height: 59
-    spriteID: a2abb4eac2fda554688670f40d986220
+      x: 74
+      y: 56
+      width: 73
+      height: 42
+    spriteID: af079cc1bd62cea4a953d03d38cb27d0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -180,19 +180,39 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 129, y: 162}
-  - name: Darth vader-movimento_Frame_3
+    uvTransform: {x: 74, y: 56}
+  - name: laracroftdeath_Frame_3
     originalName: 
-    pivot: {x: 5.38, y: -0.3787879}
+    pivot: {x: 0.5633803, y: -0.9069767}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 138
+      x: 74
+      y: 106
+      width: 71
+      height: 43
+    spriteID: b995a03c889e9cc49ac8fd67325a8baf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 74, y: 106}
+  - name: laracroftdeath_Frame_4
+    originalName: 
+    pivot: {x: 0.5584416, y: -0.97727275}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 74
       y: 4
-      width: 75
-      height: 66
-    spriteID: 48defe86700356f4198f8facaf369742
+      width: 77
+      height: 44
+    spriteID: 7bbb9904c8687744c8e38d971a2855ba
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -200,19 +220,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 138, y: 4}
-  - name: Darth vader-movimento_Frame_4
+    uvTransform: {x: 74, y: 4}
+  - name: laracroftdeath_Frame_5
     originalName: 
-    pivot: {x: 3.1944444, y: -0.085365854}
+    pivot: {x: 0.58064514, y: -0.56140345}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 126
-      height: 82
-    spriteID: 839688e42f0e031408a1ac60b900013e
+      width: 62
+      height: 57
+    spriteID: e2f5a663144f13043bc27707a74d20df
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -221,18 +241,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Darth vader-movimento_Frame_5
+  - name: laracroftdeath_Frame_6
     originalName: 
-    pivot: {x: 4.99375, y: -0.24999999}
+    pivot: {x: 0.84000003, y: -0.22857143}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 94
-      width: 80
-      height: 60
-    spriteID: bd1b953b9671aeb468ad1ccdc7bd943b
+      x: 201
+      y: 151
+      width: 50
+      height: 35
+    spriteID: 9b8827431bb91e543a0c9c3723f7f77e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -240,19 +260,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 94}
-  - name: Darth vader-movimento_Frame_6
+    uvTransform: {x: 201, y: 151}
+  - name: laracroftdeath_Frame_7
     originalName: 
-    pivot: {x: 5.044304, y: -0.24999999}
+    pivot: {x: 0.5675676, y: -0.41935483}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 92
-      y: 94
-      width: 79
-      height: 60
-    spriteID: aabeb01483e4aef48808735b35fd1b90
+      x: 74
+      y: 218
+      width: 74
+      height: 31
+    spriteID: 69b14347932c09a49a7935970b3c6913
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -260,19 +280,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 92, y: 94}
-  - name: Darth vader-movimento_Frame_7
+    uvTransform: {x: 74, y: 218}
+  - name: laracroftdeath_Frame_8
     originalName: 
-    pivot: {x: 6.601695, y: -0.4}
+    pivot: {x: 0.6027397, y: -0.4285714}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 162
-      width: 59
-      height: 60
-    spriteID: 8a946fa596baf1b429aedf2354425915
+      x: 159
+      y: 115
+      width: 73
+      height: 28
+    spriteID: d2eaafae38619fb439ffffb0f9c10bc3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -280,88 +300,184 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 162}
+    uvTransform: {x: 159, y: 115}
+  - name: laracroftdeath_Frame_9
+    originalName: 
+    pivot: {x: 0.5733334, y: -0.2142857}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 159
+      y: 79
+      width: 75
+      height: 28
+    spriteID: 8fdeededf776cea4f9929738dc20872a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 159, y: 79}
+  - name: laracroftdeath_Frame_10
+    originalName: 
+    pivot: {x: 0.6144578, y: -0.2142857}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 159
+      y: 43
+      width: 83
+      height: 28
+    spriteID: 9bb2c63ca3ae1b1469b37837c3f3723a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 159, y: 43}
+  - name: laracroftdeath_Frame_11
+    originalName: 
+    pivot: {x: 0.60493827, y: -0.16129033}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 159
+      y: 4
+      width: 81
+      height: 31
+    spriteID: 27ed49d5b05771743b91ffec23f3efb0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 159, y: 4}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1776110410
-    name: Darth vader-movimento
+    guid: -2088498362
+    name: laracroftdeath
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Darth vader-movimento_Frame_0
+    - name: laracroftdeath_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 13
-        y: 24
-        width: 59
-        height: 60
-      spriteId: 591d1567bdc123d43a2e277cef4ed665
-    - name: Darth vader-movimento_Frame_1
+        x: 32
+        y: 7
+        width: 34
+        height: 58
+      spriteId: ba9bc758afc70a945bac1c7ebeec69c9
+    - name: laracroftdeath_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
-        x: 13
-        y: 25
-        width: 50
-        height: 59
-      spriteId: c48e110493419e94d9791e55d16d1014
-    - name: Darth vader-movimento_Frame_2
+        x: 19
+        y: 17
+        width: 51
+        height: 53
+      spriteId: cdeb950ca58ae944cbbc248146738f78
+    - name: laracroftdeath_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
-        x: -1
-        y: 25
-        width: 49
-        height: 59
-      spriteId: a2abb4eac2fda554688670f40d986220
-    - name: Darth vader-movimento_Frame_3
+        x: 17
+        y: 33
+        width: 73
+        height: 42
+      spriteId: af079cc1bd62cea4a953d03d38cb27d0
+    - name: laracroftdeath_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
-        x: -1
-        y: 25
-        width: 75
-        height: 66
-      spriteId: 48defe86700356f4198f8facaf369742
-    - name: Darth vader-movimento_Frame_4
+        x: 14
+        y: 39
+        width: 71
+        height: 43
+      spriteId: b995a03c889e9cc49ac8fd67325a8baf
+    - name: laracroftdeath_Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
-        x: 0
-        y: 7
-        width: 126
-        height: 82
-      spriteId: 839688e42f0e031408a1ac60b900013e
-    - name: Darth vader-movimento_Frame_5
+        x: 11
+        y: 43
+        width: 77
+        height: 44
+      spriteId: 7bbb9904c8687744c8e38d971a2855ba
+    - name: laracroftdeath_Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
-        x: 3
-        y: 15
-        width: 80
-        height: 60
-      spriteId: bd1b953b9671aeb468ad1ccdc7bd943b
-    - name: Darth vader-movimento_Frame_6
+        x: 18
+        y: 32
+        width: 62
+        height: 57
+      spriteId: e2f5a663144f13043bc27707a74d20df
+    - name: laracroftdeath_Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
-        x: 4
-        y: 15
-        width: 79
-        height: 60
-      spriteId: aabeb01483e4aef48808735b35fd1b90
-    - name: Darth vader-movimento_Frame_7
+        x: 12
+        y: 8
+        width: 50
+        height: 35
+      spriteId: 9b8827431bb91e543a0c9c3723f7f77e
+    - name: laracroftdeath_Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
-        x: 13
-        y: 24
-        width: 59
-        height: 60
-      spriteId: 8a946fa596baf1b429aedf2354425915
+        x: 12
+        y: 13
+        width: 74
+        height: 31
+      spriteId: 69b14347932c09a49a7935970b3c6913
+    - name: laracroftdeath_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 12
+        width: 73
+        height: 28
+      spriteId: d2eaafae38619fb439ffffb0f9c10bc3
+    - name: laracroftdeath_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 11
+        y: 6
+        width: 75
+        height: 28
+      spriteId: 8fdeededf776cea4f9929738dc20872a
+    - name: laracroftdeath_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 3
+        y: 6
+        width: 83
+        height: 28
+      spriteId: 9bb2c63ca3ae1b1469b37837c3f3723a
+    - name: laracroftdeath_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 5
+        y: 5
+        width: 81
+        height: 31
+      spriteId: 27ed49d5b05771743b91ffec23f3efb0
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -392,4 +508,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 805, y: 113}
+  canvasSize: {x: 108, y: 97}
