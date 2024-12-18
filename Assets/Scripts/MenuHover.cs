@@ -11,6 +11,11 @@ public class MenuHover : MonoBehaviour
     public Sprite hoverSprite;       // The sprite to display on hover
     public Sprite initialSprite;     // The initial sprite (set this in the inspector or find it at runtime)
 
+    public Image nameImage;
+    public Image nameImageD;
+    public Sprite initialNameSprite;
+    public Sprite nameSprite;     // The initial sprite (set this in the inspector or find it at runtime)
+
     private bool isP1Selected = false;  // Track if p1 is selected
     private bool isP2Selected = false;  // Track if p2 is selected
 
@@ -20,10 +25,13 @@ public class MenuHover : MonoBehaviour
 
         SetImageAlpha(0f, targetImage);
         SetImageAlpha(0f, targetImageD);
+        SetImageAlpha(0f, nameImage);
+        SetImageAlpha(0f, nameImageD);
         // Store the initial sprite when the script starts
         if (targetImage != null)
         {
             initialSprite = targetImage.sprite;  // Store the initial sprite
+            initialNameSprite = nameImage.sprite;
         }
         else
         {
@@ -68,14 +76,18 @@ public class MenuHover : MonoBehaviour
         {
             // Change the sprite to hoverSprite
             targetImageD.sprite = hoverSprite;
+            nameImage.sprite = nameSprite;
             Debug.Log("Sprite changed to: " + targetImage.sprite.name);
             SetImageAlpha(1f, targetImageD);
+            SetImageAlpha(1f, nameImageD);
             return;
         }
         // Change the sprite to hoverSprite
         targetImage.sprite = hoverSprite;
+        nameImage.sprite = nameSprite;
         Debug.Log("Sprite changed to: " + targetImage.sprite.name);
         SetImageAlpha(1f, targetImage);
+        SetImageAlpha(1f, nameImage);
     }
 
     public void OnHoverEnd()
@@ -96,8 +108,10 @@ public class MenuHover : MonoBehaviour
             if (initialSprite != null)
             {
                 targetImageD.sprite = initialSprite;
+                nameImageD.sprite = nameSprite;
                 Debug.Log("Sprite reverted to: " + targetImage.sprite.name);
                 SetImageAlpha(0f, targetImageD);
+                SetImageAlpha(0f, nameImageD);
             }
             return;
         }
@@ -106,8 +120,10 @@ public class MenuHover : MonoBehaviour
         if (initialSprite != null)
         {
             targetImage.sprite = initialSprite;
+            nameImage.sprite = initialNameSprite;
             Debug.Log("Sprite reverted to: " + targetImage.sprite.name);
             SetImageAlpha(0f, targetImage);
+            SetImageAlpha(0f, nameImage);
         }
         else
         {

@@ -229,6 +229,66 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &806348526
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 806348527}
+  - component: {fileID: 806348528}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &806348527
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806348526}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.243638, y: -3.8758762, z: -0.033250112}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &806348528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806348526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0f879393f4213541b4e4d99705a151c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  p1: 3
+  p2: 3
+  player1: {fileID: 997377347}
+  player2: {fileID: 934575694}
+  deadpoolSprite: {fileID: -4784412131899372730, guid: 46085c4fcaefc18438dfef1403e013e8, type: 3}
+  deadpoolAnimator: {fileID: 0}
+  sailorMoonSprite: {fileID: 0}
+  sailorMoonAnimator: {fileID: 0}
+  laraCroftSprite: {fileID: 1273847377112649555, guid: 57ff760a34484f4409a73a12e046f55f, type: 3}
+  laraCroftAnimator: {fileID: 9100000, guid: ac8f78bc1fcf4404781d2ca06ee820c6, type: 2}
+  blackWidowSprite: {fileID: 0}
+  blackWidowAnimator: {fileID: 0}
+  supermanSprite: {fileID: 0}
+  supermanAnimator: {fileID: 0}
+  darthVaderSprite: {fileID: -3121263263947286557, guid: 7821b1c5523d3b0498c9fe3da1c0dc3e, type: 3}
+  darthVaderAnimator: {fileID: 0}
 --- !u!1 &934575694
 GameObject:
   m_ObjectHideFlags: 0
@@ -239,6 +299,7 @@ GameObject:
   m_Component:
   - component: {fileID: 934575696}
   - component: {fileID: 934575695}
+  - component: {fileID: 934575697}
   m_Layer: 0
   m_Name: P2
   m_TagString: Untagged
@@ -287,7 +348,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 6373893532928383555, guid: d628eebf369c1b1489568a2fa62348db, type: 3}
+  m_Sprite: {fileID: -8779900196443681013, guid: fbb860793e577c34b89600783d16477c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -307,12 +368,33 @@ Transform:
   m_GameObject: {fileID: 934575694}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.97, y: -3.047, z: 0}
+  m_LocalPosition: {x: -6.64, y: -5.87, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &934575697
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934575694}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ac8f78bc1fcf4404781d2ca06ee820c6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &997377347
 GameObject:
   m_ObjectHideFlags: 0
@@ -323,7 +405,7 @@ GameObject:
   m_Component:
   - component: {fileID: 997377349}
   - component: {fileID: 997377348}
-  - component: {fileID: 997377350}
+  - component: {fileID: 997377351}
   m_Layer: 0
   m_Name: P1
   m_TagString: Untagged
@@ -372,15 +454,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 6373893532928383555, guid: d628eebf369c1b1489568a2fa62348db, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.25, y: 2.2857144}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &997377349
@@ -392,29 +474,33 @@ Transform:
   m_GameObject: {fileID: 997377347}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.071, y: -3.062, z: 0}
+  m_LocalPosition: {x: -15.52, y: -5.15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &997377350
-MonoBehaviour:
+--- !u!95 &997377351
+Animator:
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 997377347}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3e05feeb06e55f4ab0293d883869e0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  p1: 0
-  p2: 0
-  targetImage: {fileID: 0}
-  targetImageD: {fileID: 0}
-  initialSprite: {fileID: 0}
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ac8f78bc1fcf4404781d2ca06ee820c6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1832022586
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -430,7 +516,7 @@ PrefabInstance:
     - target: {fileID: 3626916397498700004, guid: 3b361eb02b7445f429b6afa8fce0de1c, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 3663983917641774502, guid: 0d06e5739ea0c9c4c88fba21ce505920, type: 3}
+      objectReference: {fileID: 21300000, guid: 28afa909fd666114fa7e40312665e952, type: 3}
     - target: {fileID: 7878350319992209165, guid: 3b361eb02b7445f429b6afa8fce0de1c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.02
@@ -489,3 +575,4 @@ SceneRoots:
   - {fileID: 488556738}
   - {fileID: 997377349}
   - {fileID: 934575696}
+  - {fileID: 806348527}

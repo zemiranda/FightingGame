@@ -13,6 +13,11 @@ public class PlayerScript : MonoBehaviour
     public int p2 = 0; // Valor inicial como 0 (não definido)
     public Image targetImage;        // The Image component that will be changed
     public Image targetImageD;        // The Image component that will be changed
+
+    public Image nameImage;        // The Image component that will be changed
+    public Image nameImageD;        // The Image component that will be changed
+
+    public Sprite initialNameSprite;        // The Image component that will be changed
     public Sprite initialSprite;     // The initial sprite (set this in the inspector or find it at runtime)
     private bool isP2Selected = false;  // Track if p2 is selected
 
@@ -46,6 +51,8 @@ public class PlayerScript : MonoBehaviour
             p2 = 0;
             targetImageD.sprite = initialSprite;
             SetImageAlpha(0f, targetImageD);
+            nameImageD.sprite = initialNameSprite;
+            SetImageAlpha(0f, nameImageD);
 
         }
         else if (p1 != 0) // Then deselect p1
@@ -54,6 +61,8 @@ public class PlayerScript : MonoBehaviour
             p1 = 0;
             targetImage.sprite = initialSprite;
             SetImageAlpha(0f, targetImage);
+            nameImage.sprite = initialNameSprite;
+            SetImageAlpha(0f, nameImage);
         }
         else
         {
@@ -95,6 +104,9 @@ public class PlayerScript : MonoBehaviour
         // Only proceed if both players are selected (both p1 and p2 should be non-zero)
         if (p1 != 0 && p2 != 0 && p2 != p1)
         {
+            PlayerPrefs.SetInt("Player1", p1);
+            PlayerPrefs.SetInt("Player2", p2);
+            PlayerPrefs.Save();
             // Proceed to change the scene only when both players are chosen
             SceneManager.LoadScene("Fight Scene"); // Replace with your actual scene name
         }
