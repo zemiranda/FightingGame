@@ -79,7 +79,7 @@ public class MenuHover : MonoBehaviour
         {
             // Change the sprite to hoverSprite
             targetImageD.sprite = hoverSprite;
-            nameImage.sprite = nameSprite;
+            nameImageD.sprite = nameSprite;
             Debug.Log("Sprite changed to: " + targetImage.sprite.name);
             SetImageAlpha(1f, targetImageD);
             SetImageAlpha(1f, nameImageD);

@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Video;
@@ -30,9 +31,6 @@ public class VideoManager : MonoBehaviour
 
     void PlayVideosForPlayers(int player1, int player2)
     {
-        StopAllVideos();
-        Debug.Log("Player 1: Lara Croft vs Player 2: Darth Vader");
-        // Player 1 combinations
         if (player1 == 1 && player2 == 2)
         {
             Debug.Log("Player 1: Deadpool vs Player 2: Sailor Moon");
@@ -64,7 +62,7 @@ public class VideoManager : MonoBehaviour
             video1.loopPointReached += (vp) => PlayNextVideo(video6);
         }
 
-        // Player 2 combinations
+        // Sailor Moon combinations
         else if (player1 == 2 && player2 == 1)
         {
             Debug.Log("Player 1: Sailor Moon vs Player 2: Deadpool");
@@ -96,7 +94,7 @@ public class VideoManager : MonoBehaviour
             video2.loopPointReached += (vp) => PlayNextVideo(video6);
         }
 
-        // Add cases for p3, p4, p5, p6 as Player 1
+        // Lara Croft combinations
         else if (player1 == 3 && player2 == 1)
         {
             Debug.Log("Player 1: Lara Croft vs Player 2: Deadpool");
@@ -128,72 +126,100 @@ public class VideoManager : MonoBehaviour
             video3.loopPointReached += (vp) => PlayNextVideo(video6);
         }
 
+        // Black Widow combinations
         else if (player1 == 4 && player2 == 1)
         {
-            Debug.Log("Player 1: Lara Croft vs Player 2: Deadpool");
+            Debug.Log("Player 1: Black Widow vs Player 2: Deadpool");
             video4.Play();
             video4.loopPointReached += (vp) => PlayNextVideo(video1);
         }
         else if (player1 == 4 && player2 == 2)
         {
-            Debug.Log("Player 1: Lara Croft vs Player 2: Sailor Moon");
+            Debug.Log("Player 1: Black Widow vs Player 2: Sailor Moon");
             video4.Play();
             video4.loopPointReached += (vp) => PlayNextVideo(video2);
         }
-        else if (player1 == 4 && player2 == 4)
+        else if (player1 == 4 && player2 == 3)
         {
-            Debug.Log("Player 1: Lara Croft vs Player 2: Black Widow");
+            Debug.Log("Player 1: Black Widow vs Player 2: Lara Croft");
             video4.Play();
-            video4.loopPointReached += (vp) => PlayNextVideo(video4);
+            video4.loopPointReached += (vp) => PlayNextVideo(video3);
         }
         else if (player1 == 4 && player2 == 5)
         {
-            Debug.Log("Player 1: Lara Croft vs Player 2: Superman");
+            Debug.Log("Player 1: Black Widow vs Player 2: Superman");
             video4.Play();
             video4.loopPointReached += (vp) => PlayNextVideo(video5);
         }
         else if (player1 == 4 && player2 == 6)
         {
-            Debug.Log("Player 1: Lara Croft vs Player 2: Darth Vader");
+            Debug.Log("Player 1: Black Widow vs Player 2: Darth Vader");
             video4.Play();
             video4.loopPointReached += (vp) => PlayNextVideo(video6);
         }
 
+        // Superman combinations
         else if (player1 == 5 && player2 == 1)
         {
-            Debug.Log("Player 1: Lara Croft vs Player 2: Deadpool");
+            Debug.Log("Player 1: Superman vs Player 2: Deadpool");
             video5.Play();
             video5.loopPointReached += (vp) => PlayNextVideo(video1);
         }
         else if (player1 == 5 && player2 == 2)
         {
-            Debug.Log("Player 1: Lara Croft vs Player 2: Sailor Moon");
+            Debug.Log("Player 1: Superman vs Player 2: Sailor Moon");
             video5.Play();
             video5.loopPointReached += (vp) => PlayNextVideo(video2);
         }
+        else if (player1 == 5 && player2 == 3)
+        {
+            Debug.Log("Player 1: Superman vs Player 2: Lara Croft");
+            video5.Play();
+            video5.loopPointReached += (vp) => PlayNextVideo(video3);
+        }
         else if (player1 == 5 && player2 == 4)
         {
-            Debug.Log("Player 1: Lara Croft vs Player 2: Black Widow");
+            Debug.Log("Player 1: Superman vs Player 2: Black Widow");
             video5.Play();
             video5.loopPointReached += (vp) => PlayNextVideo(video4);
         }
-        else if (player1 == 5 && player2 == 5)
-        {
-            Debug.Log("Player 1: Lara Croft vs Player 2: Superman");
-            video5.Play();
-            video5.loopPointReached += (vp) => PlayNextVideo(video5);
-        }
         else if (player1 == 5 && player2 == 6)
         {
-            Debug.Log("Player 1: Lara Croft vs Player 2: Darth Vader");
+            Debug.Log("Player 1: Superman vs Player 2: Darth Vader");
             video5.Play();
             video5.loopPointReached += (vp) => PlayNextVideo(video6);
         }
 
-        // Add more cases similarly for p4, p5, p6
-        else
+        // Darth Vader combinations
+        else if (player1 == 6 && player2 == 1)
         {
-            Debug.LogWarning("No matching video sequence for the selected players!");
+            Debug.Log("Player 1: Darth Vader vs Player 2: Deadpool");
+            video6.Play();
+            video6.loopPointReached += (vp) => PlayNextVideo(video1);
+        }
+        else if (player1 == 6 && player2 == 2)
+        {
+            Debug.Log("Player 1: Darth Vader vs Player 2: Sailor Moon");
+            video6.Play();
+            video6.loopPointReached += (vp) => PlayNextVideo(video2);
+        }
+        else if (player1 == 6 && player2 == 3)
+        {
+            Debug.Log("Player 1: Darth Vader vs Player 2: Deadpool");
+            video6.Play();
+            video6.loopPointReached += (vp) => PlayNextVideo(video3);
+        }
+        else if (player1 == 6 && player2 == 4)
+        {
+            Debug.Log("Player 1: Darth Vader vs Player 2: Sailor Moon");
+            video6.Play();
+            video6.loopPointReached += (vp) => PlayNextVideo(video4);
+        }
+        else if (player1 == 6 && player2 == 5)
+        {
+            Debug.Log("Player 1: Darth Vader vs Player 2: Deadpool");
+            video6.Play();
+            video6.loopPointReached += (vp) => PlayNextVideo(video5);
         }
     }
 
@@ -202,17 +228,6 @@ public class VideoManager : MonoBehaviour
         Debug.Log($"Playing next video: {nextVideo.name}");
         nextVideo.Play();
         nextVideo.loopPointReached += (vp) => LoadNextScene(); // Load next scene after the last video
-    }
-
-    void StopAllVideos()
-    {
-        // Stop all the video players to ensure no overlap
-        video1.Stop();
-        video2.Stop();
-        video3.Stop();
-        video4.Stop();
-        video5.Stop();
-        video6.Stop();
     }
 
     void LoadNextScene()

@@ -256,7 +256,7 @@ SpriteRenderer:
   m_Size: {x: 1.046875, y: 1.046875}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &73754421
@@ -431,8 +431,8 @@ MonoBehaviour:
   player2: {fileID: 934575694}
   deadpoolSprite: {fileID: -4784412131899372730, guid: 46085c4fcaefc18438dfef1403e013e8, type: 3}
   deadpoolAnimator: {fileID: 9100000, guid: 84e501c2bb708724c9cb90e27f9e88f7, type: 2}
-  sailorMoonSprite: {fileID: 0}
-  sailorMoonAnimator: {fileID: 0}
+  sailorMoonSprite: {fileID: 7320302164011670958, guid: 5a6fecfd03ac5b047b66c98b25cccd61, type: 3}
+  sailorMoonAnimator: {fileID: 9100000, guid: f10ada5880468694bb626511dae455dd, type: 2}
   laraCroftSprite: {fileID: 1273847377112649555, guid: 57ff760a34484f4409a73a12e046f55f, type: 3}
   laraCroftAnimator: {fileID: 9100000, guid: ac8f78bc1fcf4404781d2ca06ee820c6, type: 2}
   blackWidowSprite: {fileID: -663994561377976437, guid: 7102b28d0c85f6242915795052e737ec, type: 3}
@@ -505,12 +505,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -663994561377976437, guid: 7102b28d0c85f6242915795052e737ec, type: 3}
+  m_Sprite: {fileID: -2726396152785997479, guid: 439c943dd672e8f489ec49e14a860e86, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.26, y: 0.5}
+  m_Size: {x: 2.95, y: 3}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -541,7 +541,7 @@ Animator:
   m_GameObject: {fileID: 934575694}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 403acd31e30ca714b99b83bd240e4ba3, type: 2}
+  m_Controller: {fileID: 9100000, guid: d8e186d2b5fa96748927a5dd2b274ffa, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -647,7 +647,7 @@ Animator:
   m_GameObject: {fileID: 997377347}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d8e186d2b5fa96748927a5dd2b274ffa, type: 2}
+  m_Controller: {fileID: 9100000, guid: 84e501c2bb708724c9cb90e27f9e88f7, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -795,7 +795,7 @@ SpriteRenderer:
   m_Size: {x: 0.67, y: 0.67}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &2116568906
