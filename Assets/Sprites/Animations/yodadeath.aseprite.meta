@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 439c943dd672e8f489ec49e14a860e86
+guid: e8d49892972ad704380ede9f28b179ab
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -35,7 +35,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 16
+    spritePixelsToUnits: 22
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -75,7 +75,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 8
+    defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
     mosaicPadding: 4
     spritePadding: 0
@@ -88,7 +88,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 8
+    defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
     mosaicPadding: 4
     spritePadding: 0
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638701723328296451
+  platformSettingsDirtyTick: 638721514104368194
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: "superman anima\xE7\xE3o morte_Frame_0"
+  - name: yodadeath_Frame_0
     originalName: 
-    pivot: {x: 2.1304348, y: -0.07142857}
+    pivot: {x: 0.7346939, y: -0.5192308}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 136
-      width: 46
-      height: 56
-    spriteID: 9c7d271176241e94294427557bad83e2
+      y: 197
+      width: 49
+      height: 52
+    spriteID: 0e1c60dca83cd1f48b20c4d551f988d5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -140,19 +140,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 136}
-  - name: "superman anima\xE7\xE3o morte_Frame_1"
+    uvTransform: {x: 4, y: 197}
+  - name: yodadeath_Frame_1
     originalName: 
-    pivot: {x: 1.7777778, y: -0.07272727}
+    pivot: {x: 0.6727273, y: -0.5510204}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 65
-      y: 4
-      width: 54
-      height: 55
-    spriteID: 7bdcb3c94d8798d498dd7984ab755f8a
+      x: 4
+      y: 140
+      width: 55
+      height: 49
+    spriteID: 37edc2cba8189954a8ab4c0a35bd1bb5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -160,19 +160,59 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 65, y: 4}
-  - name: "superman anima\xE7\xE3o morte_Frame_2"
+    uvTransform: {x: 4, y: 140}
+  - name: yodadeath_Frame_2
     originalName: 
-    pivot: {x: 1.9423076, y: -0.13793102}
+    pivot: {x: 0.48648646, y: -0.5319149}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 4
+      width: 74
+      height: 47
+    spriteID: a37f03c9e7dcf9e4bb419f3fd81bccd9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 4}
+  - name: yodadeath_Frame_3
+    originalName: 
+    pivot: {x: 0.48571432, y: -0.5510204}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 59
+      width: 70
+      height: 49
+    spriteID: d0632ede87b317442a8f6f4d11b34c4b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 59}
+  - name: yodadeath_Frame_4
+    originalName: 
+    pivot: {x: 0.64285713, y: -0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 70
-      width: 52
-      height: 58
-    spriteID: 913c4acc522f4a54a9ffaade7ca389fe
+      width: 56
+      height: 62
+    spriteID: 2ab9c4e51299f0142bcfc88fa44721c0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -181,18 +221,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 70}
-  - name: "superman anima\xE7\xE3o morte_Frame_3"
+  - name: yodadeath_Frame_5
     originalName: 
-    pivot: {x: 1.8679245, y: -0.13793102}
+    pivot: {x: 0.57377046, y: -0.51724136}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 53
+      width: 61
       height: 58
-    spriteID: 2e84ddd7eb080774fb799bcddd0dc136
+    spriteID: 048ee87f7e23b08489538a062cecd414
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -201,18 +241,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: "superman anima\xE7\xE3o morte_Frame_4"
+  - name: yodadeath_Frame_6
     originalName: 
-    pivot: {x: 1.6964285, y: -0.4878049}
+    pivot: {x: 0.59677416, y: -0.5555556}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 127
-      y: 4
-      width: 56
-      height: 41
-    spriteID: 183b2263649fb304a86dd76d76170afc
+      x: 73
+      y: 116
+      width: 62
+      height: 54
+    spriteID: ba9ca3bb35b1f4f48873018b33c0873e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -220,139 +260,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 127, y: 4}
-  - name: "superman anima\xE7\xE3o morte_Frame_5"
+    uvTransform: {x: 73, y: 116}
+  - name: yodadeath_Frame_7
     originalName: 
-    pivot: {x: 1.8235294, y: -0.4090909}
+    pivot: {x: 0.5483871, y: -0.53846157}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 200
-      width: 51
-      height: 44
-    spriteID: 15b54f02cfd0c7545932bb436da0fdee
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 200}
-  - name: "superman anima\xE7\xE3o morte_Frame_6"
-    originalName: 
-    pivot: {x: 1.7142856, y: -0.2105263}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 65
-      y: 67
-      width: 49
-      height: 38
-    spriteID: a148ca588b39f29409df261e76a45afd
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 65, y: 67}
-  - name: "superman anima\xE7\xE3o morte_Frame_8"
-    originalName: 
-    pivot: {x: 1.5818181, y: -0.29999998}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 127
-      y: 93
-      width: 55
-      height: 20
-    spriteID: 486f1b1af9efbb845829bab70ef6ed74
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 127, y: 93}
-  - name: "superman anima\xE7\xE3o morte_Frame_9"
-    originalName: 
-    pivot: {x: 1.5614034, y: -0.29999998}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 191
-      y: 4
-      width: 57
-      height: 20
-    spriteID: 5966512abef272844a3acee9019b40b6
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 191, y: 4}
-  - name: "superman anima\xE7\xE3o morte_Frame_10"
-    originalName: 
-    pivot: {x: 1.5818181, y: -0.29999998}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 127
-      y: 121
-      width: 55
-      height: 20
-    spriteID: ecb48d62fe629c54b9fcd4de997804ba
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 127, y: 121}
-  - name: "superman anima\xE7\xE3o morte_Frame_11"
-    originalName: 
-    pivot: {x: 1.5818181, y: -0.29999998}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 127
-      y: 149
-      width: 55
-      height: 20
-    spriteID: 5a84407dfc3b33d45a9976bb8f2ed70c
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 127, y: 149}
-  - name: "superman anima\xE7\xE3o morte_Frame_7"
-    originalName: 
-    pivot: {x: 1.5636364, y: -0.1875}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 127
+      x: 155
       y: 53
-      width: 55
-      height: 32
-    spriteID: 3c88edaf45d7edc4fa4183e1408811d3
+      width: 62
+      height: 39
+    spriteID: 40a1ff34ff225774f8e17f5cc2a58293
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -360,124 +280,146 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 127, y: 53}
+    uvTransform: {x: 155, y: 53}
+  - name: yodadeath_Frame_8
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.4883721}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 178
+      width: 63
+      height: 43
+    spriteID: 6064b1e4c4bf23e4b984a5b87e9e9434
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 178}
+  - name: yodadeath_Frame_9
+    originalName: 
+    pivot: {x: 0.56451607, y: -0.51219517}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 155
+      y: 4
+      width: 62
+      height: 41
+    spriteID: 44a2ba7d91e838b44a3c5c9d72b19f02
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 155, y: 4}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1512765179
-    name: "superman anima\xE7\xE3o morte"
+    guid: 1061278091
+    name: yodadeath
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: "superman anima\xE7\xE3o morte_Frame_0"
+    - name: yodadeath_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 28
-        y: 4
-        width: 46
-        height: 56
-      spriteId: 9c7d271176241e94294427557bad83e2
-    - name: "superman anima\xE7\xE3o morte_Frame_1"
+        x: 12
+        y: 27
+        width: 49
+        height: 52
+      spriteId: 0e1c60dca83cd1f48b20c4d551f988d5
+    - name: yodadeath_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
-        x: 30
-        y: 4
-        width: 54
-        height: 55
-      spriteId: 7bdcb3c94d8798d498dd7984ab755f8a
-    - name: "superman anima\xE7\xE3o morte_Frame_2"
+        x: 11
+        y: 27
+        width: 55
+        height: 49
+      spriteId: 37edc2cba8189954a8ab4c0a35bd1bb5
+    - name: yodadeath_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
-        x: 25
-        y: 8
-        width: 52
-        height: 58
-      spriteId: 913c4acc522f4a54a9ffaade7ca389fe
-    - name: "superman anima\xE7\xE3o morte_Frame_3"
+        x: 12
+        y: 25
+        width: 74
+        height: 47
+      spriteId: a37f03c9e7dcf9e4bb419f3fd81bccd9
+    - name: yodadeath_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
-        x: 27
-        y: 8
-        width: 53
-        height: 58
-      spriteId: 2e84ddd7eb080774fb799bcddd0dc136
-    - name: "superman anima\xE7\xE3o morte_Frame_4"
+        x: 14
+        y: 27
+        width: 70
+        height: 49
+      spriteId: d0632ede87b317442a8f6f4d11b34c4b
+    - name: yodadeath_Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
-        x: 31
-        y: 20
+        x: 12
+        y: 31
         width: 56
-        height: 41
-      spriteId: 183b2263649fb304a86dd76d76170afc
-    - name: "superman anima\xE7\xE3o morte_Frame_5"
+        height: 62
+      spriteId: 2ab9c4e51299f0142bcfc88fa44721c0
+    - name: yodadeath_Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
-        x: 33
-        y: 18
-        width: 51
-        height: 44
-      spriteId: 15b54f02cfd0c7545932bb436da0fdee
-    - name: "superman anima\xE7\xE3o morte_Frame_6"
+        x: 13
+        y: 30
+        width: 61
+        height: 58
+      spriteId: 048ee87f7e23b08489538a062cecd414
+    - name: yodadeath_Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
-        x: 42
-        y: 8
-        width: 49
-        height: 38
-      spriteId: a148ca588b39f29409df261e76a45afd
-    - name: "superman anima\xE7\xE3o morte_Frame_8"
-      frameIndex: 8
-      additiveSortOrder: 0
-      cellRect:
-        x: 39
-        y: 6
-        width: 55
-        height: 20
-      spriteId: 486f1b1af9efbb845829bab70ef6ed74
-    - name: "superman anima\xE7\xE3o morte_Frame_9"
-      frameIndex: 9
-      additiveSortOrder: 0
-      cellRect:
-        x: 37
-        y: 6
-        width: 57
-        height: 20
-      spriteId: 5966512abef272844a3acee9019b40b6
-    - name: "superman anima\xE7\xE3o morte_Frame_10"
-      frameIndex: 10
-      additiveSortOrder: 0
-      cellRect:
-        x: 39
-        y: 6
-        width: 55
-        height: 20
-      spriteId: ecb48d62fe629c54b9fcd4de997804ba
-    - name: "superman anima\xE7\xE3o morte_Frame_11"
-      frameIndex: 11
-      additiveSortOrder: 0
-      cellRect:
-        x: 39
-        y: 6
-        width: 55
-        height: 20
-      spriteId: 5a84407dfc3b33d45a9976bb8f2ed70c
-    - name: "superman anima\xE7\xE3o morte_Frame_7"
+        x: 11
+        y: 30
+        width: 62
+        height: 54
+      spriteId: ba9ca3bb35b1f4f48873018b33c0873e
+    - name: yodadeath_Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
-        x: 40
-        y: 6
-        width: 55
-        height: 32
-      spriteId: 3c88edaf45d7edc4fa4183e1408811d3
+        x: 14
+        y: 21
+        width: 62
+        height: 39
+      spriteId: 40a1ff34ff225774f8e17f5cc2a58293
+    - name: yodadeath_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 12
+        y: 21
+        width: 63
+        height: 43
+      spriteId: 6064b1e4c4bf23e4b984a5b87e9e9434
+    - name: yodadeath_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 13
+        y: 21
+        width: 62
+        height: 41
+      spriteId: 44a2ba7d91e838b44a3c5c9d72b19f02
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -508,4 +450,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 126, y: 83}
+  canvasSize: {x: 96, y: 98}

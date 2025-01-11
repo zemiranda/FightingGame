@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 439c943dd672e8f489ec49e14a860e86
+guid: 1ec96c44ff4f5a14bb2052c3b1b20fa2
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -35,7 +35,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 16
+    spritePixelsToUnits: 22
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -75,7 +75,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 8
+    defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
     mosaicPadding: 4
     spritePadding: 0
@@ -88,7 +88,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 8
+    defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
     mosaicPadding: 4
     spritePadding: 0
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638701723328296451
+  platformSettingsDirtyTick: 638721514045951148
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: "superman anima\xE7\xE3o morte_Frame_0"
+  - name: yodaattack_Frame_0
     originalName: 
-    pivot: {x: 2.1304348, y: -0.07142857}
+    pivot: {x: 0.8979592, y: -0.28846154}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 136
-      width: 46
-      height: 56
-    spriteID: 9c7d271176241e94294427557bad83e2
+      x: 97
+      y: 64
+      width: 49
+      height: 52
+    spriteID: 96da8afa57f84a944a4cf45715587e28
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -140,19 +140,59 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 136}
-  - name: "superman anima\xE7\xE3o morte_Frame_1"
+    uvTransform: {x: 97, y: 64}
+  - name: yodaattack_Frame_1
     originalName: 
-    pivot: {x: 1.7777778, y: -0.07272727}
+    pivot: {x: 0.96153843, y: -0.3333333}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 65
+      x: 155
+      y: 60
+      width: 52
+      height: 42
+    spriteID: a0218f3c47088104aa3bf747cb945d42
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 155, y: 60}
+  - name: yodaattack_Frame_2
+    originalName: 
+    pivot: {x: 0.99999994, y: -0.3043478}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 97
+      y: 124
+      width: 50
+      height: 46
+    spriteID: fc0f51d8f8687bd44aae265fad5f43c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 97, y: 124}
+  - name: yodaattack_Frame_3
+    originalName: 
+    pivot: {x: 0.9444444, y: -0.31249997}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 155
       y: 4
       width: 54
-      height: 55
-    spriteID: 7bdcb3c94d8798d498dd7984ab755f8a
+      height: 48
+    spriteID: 7166711da246fb14b91604e3acd0481a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -160,39 +200,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 65, y: 4}
-  - name: "superman anima\xE7\xE3o morte_Frame_2"
+    uvTransform: {x: 155, y: 4}
+  - name: yodaattack_Frame_4
     originalName: 
-    pivot: {x: 1.9423076, y: -0.13793102}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 70
-      width: 52
-      height: 58
-    spriteID: 913c4acc522f4a54a9ffaade7ca389fe
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 70}
-  - name: "superman anima\xE7\xE3o morte_Frame_3"
-    originalName: 
-    pivot: {x: 1.8679245, y: -0.13793102}
+    pivot: {x: 0.56470585, y: -0.2027027}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 53
-      height: 58
-    spriteID: 2e84ddd7eb080774fb799bcddd0dc136
+      width: 85
+      height: 74
+    spriteID: cfa31672780d57645a8a7469dc48aba0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -201,38 +221,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: "superman anima\xE7\xE3o morte_Frame_4"
+  - name: yodaattack_Frame_5
     originalName: 
-    pivot: {x: 1.6964285, y: -0.4878049}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 127
-      y: 4
-      width: 56
-      height: 41
-    spriteID: 183b2263649fb304a86dd76d76170afc
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 127, y: 4}
-  - name: "superman anima\xE7\xE3o morte_Frame_5"
-    originalName: 
-    pivot: {x: 1.8235294, y: -0.4090909}
+    pivot: {x: 0.55263156, y: -0.25396824}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 200
-      width: 51
-      height: 44
-    spriteID: 15b54f02cfd0c7545932bb436da0fdee
+      y: 86
+      width: 76
+      height: 63
+    spriteID: 377f9fcd73211f545a36ecf4e2528576
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -240,19 +240,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 200}
-  - name: "superman anima\xE7\xE3o morte_Frame_6"
+    uvTransform: {x: 4, y: 86}
+  - name: yodaattack_Frame_6
     originalName: 
-    pivot: {x: 1.7142856, y: -0.2105263}
+    pivot: {x: 0.65625, y: -0.3272727}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 65
-      y: 67
-      width: 49
-      height: 38
-    spriteID: a148ca588b39f29409df261e76a45afd
+      x: 4
+      y: 157
+      width: 64
+      height: 55
+    spriteID: fcaca0d2ce8448e4f90fb4a04ac49433
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -260,39 +260,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 65, y: 67}
-  - name: "superman anima\xE7\xE3o morte_Frame_8"
+    uvTransform: {x: 4, y: 157}
+  - name: yodaattack_Frame_7
     originalName: 
-    pivot: {x: 1.5818181, y: -0.29999998}
+    pivot: {x: 0.87999994, y: -0.34615383}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 127
-      y: 93
-      width: 55
-      height: 20
-    spriteID: 486f1b1af9efbb845829bab70ef6ed74
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 127, y: 93}
-  - name: "superman anima\xE7\xE3o morte_Frame_9"
-    originalName: 
-    pivot: {x: 1.5614034, y: -0.29999998}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 191
+      x: 97
       y: 4
-      width: 57
-      height: 20
-    spriteID: 5966512abef272844a3acee9019b40b6
+      width: 50
+      height: 52
+    spriteID: 648d9d6428dae4d4cbfc84f58bd989fd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -300,184 +280,88 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 191, y: 4}
-  - name: "superman anima\xE7\xE3o morte_Frame_10"
-    originalName: 
-    pivot: {x: 1.5818181, y: -0.29999998}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 127
-      y: 121
-      width: 55
-      height: 20
-    spriteID: ecb48d62fe629c54b9fcd4de997804ba
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 127, y: 121}
-  - name: "superman anima\xE7\xE3o morte_Frame_11"
-    originalName: 
-    pivot: {x: 1.5818181, y: -0.29999998}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 127
-      y: 149
-      width: 55
-      height: 20
-    spriteID: 5a84407dfc3b33d45a9976bb8f2ed70c
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 127, y: 149}
-  - name: "superman anima\xE7\xE3o morte_Frame_7"
-    originalName: 
-    pivot: {x: 1.5636364, y: -0.1875}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 127
-      y: 53
-      width: 55
-      height: 32
-    spriteID: 3c88edaf45d7edc4fa4183e1408811d3
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 127, y: 53}
+    uvTransform: {x: 97, y: 4}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1512765179
-    name: "superman anima\xE7\xE3o morte"
+    guid: 1047057515
+    name: yodaattack
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: "superman anima\xE7\xE3o morte_Frame_0"
+    - name: yodaattack_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 28
-        y: 4
-        width: 46
-        height: 56
-      spriteId: 9c7d271176241e94294427557bad83e2
-    - name: "superman anima\xE7\xE3o morte_Frame_1"
+        x: 14
+        y: 15
+        width: 49
+        height: 52
+      spriteId: 96da8afa57f84a944a4cf45715587e28
+    - name: yodaattack_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
-        x: 30
-        y: 4
-        width: 54
-        height: 55
-      spriteId: 7bdcb3c94d8798d498dd7984ab755f8a
-    - name: "superman anima\xE7\xE3o morte_Frame_2"
+        x: 8
+        y: 14
+        width: 52
+        height: 42
+      spriteId: a0218f3c47088104aa3bf747cb945d42
+    - name: yodaattack_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
-        x: 25
-        y: 8
-        width: 52
-        height: 58
-      spriteId: 913c4acc522f4a54a9ffaade7ca389fe
-    - name: "superman anima\xE7\xE3o morte_Frame_3"
+        x: 8
+        y: 14
+        width: 50
+        height: 46
+      spriteId: fc0f51d8f8687bd44aae265fad5f43c7
+    - name: yodaattack_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
-        x: 27
-        y: 8
-        width: 53
-        height: 58
-      spriteId: 2e84ddd7eb080774fb799bcddd0dc136
-    - name: "superman anima\xE7\xE3o morte_Frame_4"
+        x: 7
+        y: 15
+        width: 54
+        height: 48
+      spriteId: 7166711da246fb14b91604e3acd0481a
+    - name: yodaattack_Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
-        x: 31
-        y: 20
-        width: 56
-        height: 41
-      spriteId: 183b2263649fb304a86dd76d76170afc
-    - name: "superman anima\xE7\xE3o morte_Frame_5"
+        x: 10
+        y: 15
+        width: 85
+        height: 74
+      spriteId: cfa31672780d57645a8a7469dc48aba0
+    - name: yodaattack_Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
-        x: 33
-        y: 18
-        width: 51
-        height: 44
-      spriteId: 15b54f02cfd0c7545932bb436da0fdee
-    - name: "superman anima\xE7\xE3o morte_Frame_6"
+        x: 16
+        y: 16
+        width: 76
+        height: 63
+      spriteId: 377f9fcd73211f545a36ecf4e2528576
+    - name: yodaattack_Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
-        x: 42
-        y: 8
-        width: 49
-        height: 38
-      spriteId: a148ca588b39f29409df261e76a45afd
-    - name: "superman anima\xE7\xE3o morte_Frame_8"
-      frameIndex: 8
-      additiveSortOrder: 0
-      cellRect:
-        x: 39
-        y: 6
-        width: 55
-        height: 20
-      spriteId: 486f1b1af9efbb845829bab70ef6ed74
-    - name: "superman anima\xE7\xE3o morte_Frame_9"
-      frameIndex: 9
-      additiveSortOrder: 0
-      cellRect:
-        x: 37
-        y: 6
-        width: 57
-        height: 20
-      spriteId: 5966512abef272844a3acee9019b40b6
-    - name: "superman anima\xE7\xE3o morte_Frame_10"
-      frameIndex: 10
-      additiveSortOrder: 0
-      cellRect:
-        x: 39
-        y: 6
-        width: 55
-        height: 20
-      spriteId: ecb48d62fe629c54b9fcd4de997804ba
-    - name: "superman anima\xE7\xE3o morte_Frame_11"
-      frameIndex: 11
-      additiveSortOrder: 0
-      cellRect:
-        x: 39
-        y: 6
-        width: 55
-        height: 20
-      spriteId: 5a84407dfc3b33d45a9976bb8f2ed70c
-    - name: "superman anima\xE7\xE3o morte_Frame_7"
+        x: 16
+        y: 18
+        width: 64
+        height: 55
+      spriteId: fcaca0d2ce8448e4f90fb4a04ac49433
+    - name: yodaattack_Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
-        x: 40
-        y: 6
-        width: 55
-        height: 32
-      spriteId: 3c88edaf45d7edc4fa4183e1408811d3
+        x: 14
+        y: 18
+        width: 50
+        height: 52
+      spriteId: 648d9d6428dae4d4cbfc84f58bd989fd
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -508,4 +392,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 126, y: 83}
+  canvasSize: {x: 116, y: 97}

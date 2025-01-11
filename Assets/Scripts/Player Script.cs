@@ -22,14 +22,20 @@ public class PlayerScript : MonoBehaviour
     public Sprite initialNameSprite;        // The Image component that will be changed
     public Sprite initialSprite;     // The initial sprite (set this in the inspector or find it at runtime)
     private bool isP2Selected = false;  // Track if p2 is selected
+    private bool isP1Selected = false;  // Track if p2 is selected
 
 
-   
+
     private void Update()
     {
         isP2Selected = p2 != 0;  // Check if p2 is selected
+        isP1Selected = p1 != 0;  // Check if p2 is selected
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            if(!isP2Selected && !isP1Selected)
+            {
+                SceneManager.LoadScene("MainMenu");
+            }
             if (PlayerScript.Instance != null)
             {
                 PlayerScript.Instance.DeselectValues();
@@ -115,7 +121,8 @@ public class PlayerScript : MonoBehaviour
             PlayerPrefs.Save();
             // Proceed to change the scene only when both players are chosen
             Debug.Log($"players {p1}{p2}");
-            SceneManager.LoadScene("CutScene"); // Replace with your actual scene name
+            //SceneManager.LoadScene("CutScene"); // Replace with your actual scene name
+            SceneManager.LoadScene("Fight Scene");
         }
         else
         {

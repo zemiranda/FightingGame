@@ -40,6 +40,10 @@ public class GameManager : MonoBehaviour
     public Sprite darthVaderSprite;
     public RuntimeAnimatorController darthVaderAnimator;
 
+    [Header("Yoda")]
+    public Sprite yodaSprite;
+    public RuntimeAnimatorController yodaAnimator;
+
     public SpriteRenderer spriteRenderer;
 
     public Sprite sprite1;
@@ -122,41 +126,100 @@ public class GameManager : MonoBehaviour
             case 1: // Deadpool
                 spriteRenderer.sprite = deadpoolSprite;
                 animator.runtimeAnimatorController = deadpoolAnimator;
+                if (isPlayer1)
+                {
+                    player.transform.position = new Vector2(-14, -6);//feito
+
+                }
+                else
+                {
+                    player.transform.position = new Vector2(-7, -6);//feito
+                }
                 break;
             case 2: // Sailor Moon
                 spriteRenderer.sprite = sailorMoonSprite;
                 animator.runtimeAnimatorController = sailorMoonAnimator;
+                if (isPlayer1)
+                {
+                    player.transform.position = new Vector2(-14, -6);//feito
+
+                }
+                else
+                {
+                    player.transform.position = new Vector2(-7, -6);//feito
+                }
                 break;
             case 3: // Lara Croft
                 spriteRenderer.sprite = laraCroftSprite;
                 animator.runtimeAnimatorController = laraCroftAnimator;
                 Debug.Log($"Sprite atualizado para: {spriteRenderer.sprite}");
+                if (isPlayer1)
+                {
+                    player.transform.position = new Vector2(-14, -6);//feito
+
+                }
+                else
+                {
+                    player.transform.position = new Vector2(-7, -6);//feito
+                }
                 break;
             case 4: // Black Widow
                 spriteRenderer.sprite = blackWidowSprite;
                 animator.runtimeAnimatorController = blackWidowAnimator;
+                if (isPlayer1)
+                {
+                    player.transform.position = new Vector2(-14, -6);//feito
+
+                }
+                else
+                {
+                    player.transform.position = new Vector2(-7, -6);//feito
+                }
                 break;
             case 5: // Superman
                 spriteRenderer.sprite = supermanSprite;
                 animator.runtimeAnimatorController = supermanAnimator;
+                if (isPlayer1)
+                {
+                    player.transform.position = new Vector2(-12, -6);//feito
+
+                }
+                else
+                {
+                    player.transform.position = new Vector2(-9, -6);//feito
+                }
                 break;
             case 6: // Darth Vader
                 spriteRenderer.sprite = darthVaderSprite;
                 animator.runtimeAnimatorController = darthVaderAnimator;
+                if (isPlayer1)
+                {
+                    player.transform.position = new Vector2(-14, -7);//feito
+
+                }
+                else
+                {
+                    player.transform.position = new Vector2(-8, -7);//feito
+                }
+                break;
+            case 7: // Yoda
+                spriteRenderer.sprite = yodaSprite;
+                animator.runtimeAnimatorController = yodaAnimator;
+                if (isPlayer1)
+                {
+                    player.transform.position = new Vector2(-14, -6);//feito
+
+                }
+                else
+                {
+                    player.transform.position = new Vector2(-8, -6);//feito
+                }
                 break;
             default:
                 Debug.LogWarning($"Character ID {characterId} inválido.");
                 break;
         }
-        if (isPlayer1)
-        {
-            player.transform.position = new Vector2(-14, -6);
-
-        }
-        else
-        {
-            player.transform.position = new Vector2(-7, -6);
-        }
+        
 
         
     }
@@ -207,6 +270,11 @@ public class GameManager : MonoBehaviour
                         animator2.SetBool("winner", true);
                         Debug.Log("Fight 1 vs 6 started!");
                         break;
+                    case 7:// Yoda
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
+                        Debug.Log("Fight 1 vs 7 started!");
+                        break;
                     default:
                         Debug.Log("Invalid match!");
                         break;
@@ -245,6 +313,11 @@ public class GameManager : MonoBehaviour
                         animator1.SetBool("winner", true);
                         animator2.SetBool("winner", false);
                         Debug.Log("Fight 2 vs 6 started!");
+                        break;
+                    case 7:// Yoda
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
+                        Debug.Log("Fight 1 vs 7 started!");
                         break;
                     default:
                         Debug.Log("Invalid match!");
@@ -285,6 +358,11 @@ public class GameManager : MonoBehaviour
                         animator2.SetBool("winner", true);
                         Debug.Log("Fight 3 vs 6 started!");
                         break;
+                    case 7:// Yoda
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
+                        Debug.Log("Fight 1 vs 7 started!");
+                        break;
                     default:
                         Debug.Log("Invalid match!");
                         break;
@@ -323,6 +401,11 @@ public class GameManager : MonoBehaviour
                         animator1.SetBool("winner", false);
                         animator2.SetBool("winner", true);
                         Debug.Log("Fight 4 vs 6 started!");
+                        break;
+                    case 7:// Yoda
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
+                        Debug.Log("Fight 1 vs 7 started!");
                         break;
                     default:
                         Debug.Log("Invalid match!");
@@ -363,6 +446,11 @@ public class GameManager : MonoBehaviour
                         animator2.SetBool("winner", false);
                         Debug.Log("Fight 5 vs 6 started!");
                         break;
+                    case 7:// Yoda
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
+                        Debug.Log("Fight 1 vs 7 started!");
+                        break;
                     default:
                         Debug.Log("Invalid match!");
                         break;
@@ -383,8 +471,8 @@ public class GameManager : MonoBehaviour
                         Debug.Log("Fight 6 vs 2 started!");
                         break;
                     case 3:
-                        animator1.SetBool("winner", false);
-                        animator2.SetBool("winner", true);
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
                         Debug.Log("Fight 6 vs 3 started!");
                         break;
                     case 4:
@@ -401,6 +489,54 @@ public class GameManager : MonoBehaviour
                         animator1.SetBool("winner", false);
                         animator2.SetBool("winner", false);
                         Debug.Log("Fight 6 vs 6 started!");
+                        break;
+                    case 7:// Yoda
+                        animator1.SetBool("winner", false);
+                        animator2.SetBool("winner", true);
+                        Debug.Log("Fight 1 vs 7 started!");
+                        break;
+                    default:
+                        Debug.Log("Invalid match!");
+                        break;
+                }
+                break;
+            case 7:// Yoda
+                switch (p2)
+                {
+                    case 1:
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
+                        Debug.Log("Fight 6 vs 1 started!");
+                        break;
+                    case 2:
+                        animator1.SetBool("winner", false);
+                        animator2.SetBool("winner", true);
+                        Debug.Log("Fight 6 vs 2 started!");
+                        break;
+                    case 3:
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
+                        Debug.Log("Fight 6 vs 3 started!");
+                        break;
+                    case 4:
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
+                        Debug.Log("Fight 6 vs 4 started!");
+                        break;
+                    case 5:
+                        animator1.SetBool("winner", false);
+                        animator2.SetBool("winner", true);
+                        Debug.Log("Fight 6 vs 5 started!");
+                        break;
+                    case 6:
+                        animator1.SetBool("winner", false);
+                        animator2.SetBool("winner", false);
+                        Debug.Log("Fight 6 vs 6 started!");
+                        break;
+                    case 7:// Yoda
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
+                        Debug.Log("Fight 1 vs 7 started!");
                         break;
                     default:
                         Debug.Log("Invalid match!");

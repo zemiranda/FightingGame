@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 439c943dd672e8f489ec49e14a860e86
+guid: f3068ef65cca27341a524dfc26a97f4b
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -35,7 +35,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 16
+    spritePixelsToUnits: 100
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -75,7 +75,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 8
+    defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
     mosaicPadding: 4
     spritePadding: 0
@@ -88,7 +88,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 8
+    defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
     mosaicPadding: 4
     spritePadding: 0
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638701723328296451
+  platformSettingsDirtyTick: 0
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,38 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: "superman anima\xE7\xE3o morte_Frame_0"
+  - name: marypoppinsdeath_Frame_0
     originalName: 
-    pivot: {x: 2.1304348, y: -0.07142857}
+    pivot: {x: 0.38636363, y: -0.34545454}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 136
-      width: 46
-      height: 56
-    spriteID: 9c7d271176241e94294427557bad83e2
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 136}
-  - name: "superman anima\xE7\xE3o morte_Frame_1"
-    originalName: 
-    pivot: {x: 1.7777778, y: -0.07272727}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 65
-      y: 4
-      width: 54
+      y: 343
+      width: 44
       height: 55
-    spriteID: 7bdcb3c94d8798d498dd7984ab755f8a
+    spriteID: b6db9ba91d895a14699625ae85dfb786
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -160,19 +140,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 65, y: 4}
-  - name: "superman anima\xE7\xE3o morte_Frame_2"
+    uvTransform: {x: 4, y: 343}
+  - name: marypoppinsdeath_Frame_1
     originalName: 
-    pivot: {x: 1.9423076, y: -0.13793102}
+    pivot: {x: 0.54761904, y: -0.34545454}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 70
-      width: 52
-      height: 58
-    spriteID: 913c4acc522f4a54a9ffaade7ca389fe
+      y: 406
+      width: 42
+      height: 55
+    spriteID: dbc74b3737970894ebfd17e35b50a6d0
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -180,19 +160,119 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 70}
-  - name: "superman anima\xE7\xE3o morte_Frame_3"
+    uvTransform: {x: 4, y: 406}
+  - name: marypoppinsdeath_Frame_2
     originalName: 
-    pivot: {x: 1.8679245, y: -0.13793102}
+    pivot: {x: 0.5, y: -0.4915254}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 276
+      width: 54
+      height: 59
+    spriteID: 2caa874c6bcd33944a46bb352b191a15
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 276}
+  - name: marypoppinsdeath_Frame_3
+    originalName: 
+    pivot: {x: 0.41935486, y: -0.7627119}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 83
+      width: 62
+      height: 59
+    spriteID: 31d0e4b3837234c419ac343b6c0fbad0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 83}
+  - name: marypoppinsdeath_Frame_4
+    originalName: 
+    pivot: {x: 0.5081967, y: -1.0909091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 213
+      width: 61
+      height: 55
+    spriteID: 68834af4e02c47946b114f04d667f04c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 213}
+  - name: marypoppinsdeath_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -1.1272727}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 150
+      width: 66
+      height: 55
+    spriteID: d0cd2449a80897048a73c2b04b909433
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 150}
+  - name: marypoppinsdeath_Frame_6
+    originalName: 
+    pivot: {x: 0.5070422, y: -1.0600001}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 153
+      y: 4
+      width: 71
+      height: 50
+    spriteID: 4baed821fea0bbc4291086be2befb821
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 153, y: 4}
+  - name: marypoppinsdeath_Frame_7
+    originalName: 
+    pivot: {x: 0.46969694, y: -0.28169015}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 53
-      height: 58
-    spriteID: 2e84ddd7eb080774fb799bcddd0dc136
+      width: 66
+      height: 71
+    spriteID: 0443b2afbe24321479b2953125203862
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -201,18 +281,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: "superman anima\xE7\xE3o morte_Frame_4"
+  - name: marypoppinsdeath_Frame_8
     originalName: 
-    pivot: {x: 1.6964285, y: -0.4878049}
+    pivot: {x: 0.4477612, y: -0.47169808}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 127
+      x: 78
       y: 4
-      width: 56
-      height: 41
-    spriteID: 183b2263649fb304a86dd76d76170afc
+      width: 67
+      height: 53
+    spriteID: 43f1a9cbd747f4c47970a6e692205346
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -220,19 +300,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 127, y: 4}
-  - name: "superman anima\xE7\xE3o morte_Frame_5"
+    uvTransform: {x: 78, y: 4}
+  - name: marypoppinsdeath_Frame_9
     originalName: 
-    pivot: {x: 1.8235294, y: -0.4090909}
+    pivot: {x: 0.5074627, y: -0.48936167}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 200
-      width: 51
-      height: 44
-    spriteID: 15b54f02cfd0c7545932bb436da0fdee
+      x: 78
+      y: 65
+      width: 67
+      height: 47
+    spriteID: 7ef20658705424a4e8a85f710b6081b2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -240,19 +320,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 200}
-  - name: "superman anima\xE7\xE3o morte_Frame_6"
+    uvTransform: {x: 78, y: 65}
+  - name: marypoppinsdeath_Frame_10
     originalName: 
-    pivot: {x: 1.7142856, y: -0.2105263}
+    pivot: {x: 0.5074627, y: -0.43243244}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 65
-      y: 67
-      width: 49
-      height: 38
-    spriteID: a148ca588b39f29409df261e76a45afd
+      x: 153
+      y: 188
+      width: 67
+      height: 37
+    spriteID: 97f2f353b6606e54982d5b29d2ae4bb3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -260,19 +340,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 65, y: 67}
-  - name: "superman anima\xE7\xE3o morte_Frame_8"
+    uvTransform: {x: 153, y: 188}
+  - name: marypoppinsdeath_Frame_11
     originalName: 
-    pivot: {x: 1.5818181, y: -0.29999998}
+    pivot: {x: 0.41095892, y: -0.32352942}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 127
-      y: 93
-      width: 55
-      height: 20
-    spriteID: 486f1b1af9efbb845829bab70ef6ed74
+      x: 153
+      y: 104
+      width: 73
+      height: 34
+    spriteID: 57b05143c12496f4698300d1881bcfb5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -280,19 +360,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 127, y: 93}
-  - name: "superman anima\xE7\xE3o morte_Frame_9"
+    uvTransform: {x: 153, y: 104}
+  - name: marypoppinsdeath_Frame_12
     originalName: 
-    pivot: {x: 1.5614034, y: -0.29999998}
+    pivot: {x: 0.45205477, y: -0.3529412}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 191
-      y: 4
-      width: 57
-      height: 20
-    spriteID: 5966512abef272844a3acee9019b40b6
+      x: 153
+      y: 146
+      width: 73
+      height: 34
+    spriteID: d7afbdad3c3601f42a9f551935a903ff
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -300,19 +380,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 191, y: 4}
-  - name: "superman anima\xE7\xE3o morte_Frame_10"
+    uvTransform: {x: 153, y: 146}
+  - name: marypoppinsdeath_Frame_13
     originalName: 
-    pivot: {x: 1.5818181, y: -0.29999998}
+    pivot: {x: 0.4583333, y: -0.3529412}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 127
-      y: 121
-      width: 55
-      height: 20
-    spriteID: ecb48d62fe629c54b9fcd4de997804ba
+      x: 153
+      y: 233
+      width: 72
+      height: 34
+    spriteID: ed8485179047d8e41a6992c4146e80ff
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -320,19 +400,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 127, y: 121}
-  - name: "superman anima\xE7\xE3o morte_Frame_11"
+    uvTransform: {x: 153, y: 233}
+  - name: marypoppinsdeath_Frame_14
     originalName: 
-    pivot: {x: 1.5818181, y: -0.29999998}
+    pivot: {x: 0.44594592, y: -0.3529412}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 127
-      y: 149
-      width: 55
-      height: 20
-    spriteID: 5a84407dfc3b33d45a9976bb8f2ed70c
+      x: 153
+      y: 62
+      width: 74
+      height: 34
+    spriteID: 285ee26333888864e9e2a3b35cefde87
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -340,172 +420,155 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 127, y: 149}
-  - name: "superman anima\xE7\xE3o morte_Frame_7"
-    originalName: 
-    pivot: {x: 1.5636364, y: -0.1875}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 127
-      y: 53
-      width: 55
-      height: 32
-    spriteID: 3c88edaf45d7edc4fa4183e1408811d3
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 127, y: 53}
+    uvTransform: {x: 153, y: 62}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1512765179
-    name: "superman anima\xE7\xE3o morte"
+    guid: -1669779330
+    name: marypoppinsdeath
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: "superman anima\xE7\xE3o morte_Frame_0"
+    - name: marypoppinsdeath_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 28
-        y: 4
-        width: 46
-        height: 56
-      spriteId: 9c7d271176241e94294427557bad83e2
-    - name: "superman anima\xE7\xE3o morte_Frame_1"
+        x: 37
+        y: 19
+        width: 44
+        height: 55
+      spriteId: b6db9ba91d895a14699625ae85dfb786
+    - name: marypoppinsdeath_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
-        x: 30
-        y: 4
-        width: 54
+        x: 31
+        y: 19
+        width: 42
         height: 55
-      spriteId: 7bdcb3c94d8798d498dd7984ab755f8a
-    - name: "superman anima\xE7\xE3o morte_Frame_2"
+      spriteId: dbc74b3737970894ebfd17e35b50a6d0
+    - name: marypoppinsdeath_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
-        x: 25
-        y: 8
-        width: 52
-        height: 58
-      spriteId: 913c4acc522f4a54a9ffaade7ca389fe
-    - name: "superman anima\xE7\xE3o morte_Frame_3"
+        x: 27
+        y: 29
+        width: 54
+        height: 59
+      spriteId: 2caa874c6bcd33944a46bb352b191a15
+    - name: marypoppinsdeath_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
-        x: 27
-        y: 8
-        width: 53
-        height: 58
-      spriteId: 2e84ddd7eb080774fb799bcddd0dc136
-    - name: "superman anima\xE7\xE3o morte_Frame_4"
+        x: 28
+        y: 45
+        width: 62
+        height: 59
+      spriteId: 31d0e4b3837234c419ac343b6c0fbad0
+    - name: marypoppinsdeath_Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
-        x: 31
-        y: 20
-        width: 56
-        height: 41
-      spriteId: 183b2263649fb304a86dd76d76170afc
-    - name: "superman anima\xE7\xE3o morte_Frame_5"
+        x: 23
+        y: 60
+        width: 61
+        height: 55
+      spriteId: 68834af4e02c47946b114f04d667f04c
+    - name: marypoppinsdeath_Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
-        x: 33
-        y: 18
-        width: 51
-        height: 44
-      spriteId: 15b54f02cfd0c7545932bb436da0fdee
-    - name: "superman anima\xE7\xE3o morte_Frame_6"
+        x: 21
+        y: 62
+        width: 66
+        height: 55
+      spriteId: d0cd2449a80897048a73c2b04b909433
+    - name: marypoppinsdeath_Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
-        x: 42
-        y: 8
-        width: 49
-        height: 38
-      spriteId: a148ca588b39f29409df261e76a45afd
-    - name: "superman anima\xE7\xE3o morte_Frame_8"
-      frameIndex: 8
-      additiveSortOrder: 0
-      cellRect:
-        x: 39
-        y: 6
-        width: 55
-        height: 20
-      spriteId: 486f1b1af9efbb845829bab70ef6ed74
-    - name: "superman anima\xE7\xE3o morte_Frame_9"
-      frameIndex: 9
-      additiveSortOrder: 0
-      cellRect:
-        x: 37
-        y: 6
-        width: 57
-        height: 20
-      spriteId: 5966512abef272844a3acee9019b40b6
-    - name: "superman anima\xE7\xE3o morte_Frame_10"
-      frameIndex: 10
-      additiveSortOrder: 0
-      cellRect:
-        x: 39
-        y: 6
-        width: 55
-        height: 20
-      spriteId: ecb48d62fe629c54b9fcd4de997804ba
-    - name: "superman anima\xE7\xE3o morte_Frame_11"
-      frameIndex: 11
-      additiveSortOrder: 0
-      cellRect:
-        x: 39
-        y: 6
-        width: 55
-        height: 20
-      spriteId: 5a84407dfc3b33d45a9976bb8f2ed70c
-    - name: "superman anima\xE7\xE3o morte_Frame_7"
+        x: 18
+        y: 53
+        width: 71
+        height: 50
+      spriteId: 4baed821fea0bbc4291086be2befb821
+    - name: marypoppinsdeath_Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
-        x: 40
-        y: 6
-        width: 55
-        height: 32
-      spriteId: 3c88edaf45d7edc4fa4183e1408811d3
+        x: 23
+        y: 20
+        width: 66
+        height: 71
+      spriteId: 0443b2afbe24321479b2953125203862
+    - name: marypoppinsdeath_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 24
+        y: 25
+        width: 67
+        height: 53
+      spriteId: 43f1a9cbd747f4c47970a6e692205346
+    - name: marypoppinsdeath_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 20
+        y: 23
+        width: 67
+        height: 47
+      spriteId: 7ef20658705424a4e8a85f710b6081b2
+    - name: marypoppinsdeath_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 20
+        y: 16
+        width: 67
+        height: 37
+      spriteId: 97f2f353b6606e54982d5b29d2ae4bb3
+    - name: marypoppinsdeath_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 24
+        y: 11
+        width: 73
+        height: 34
+      spriteId: 57b05143c12496f4698300d1881bcfb5
+    - name: marypoppinsdeath_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 12
+        width: 73
+        height: 34
+      spriteId: d7afbdad3c3601f42a9f551935a903ff
+    - name: marypoppinsdeath_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 12
+        width: 72
+        height: 34
+      spriteId: ed8485179047d8e41a6992c4146e80ff
+    - name: marypoppinsdeath_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 12
+        width: 74
+        height: 34
+      spriteId: 285ee26333888864e9e2a3b35cefde87
     linkedCells: []
     parentIndex: -1
-  platformSettings:
-  - name: DefaultTexturePlatform
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: Standalone
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
+  platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 126, y: 83}
+  canvasSize: {x: 108, y: 120}
