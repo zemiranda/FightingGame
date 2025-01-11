@@ -445,6 +445,10 @@ MonoBehaviour:
   yodaAnimator: {fileID: 9100000, guid: a428612e758d16f4f99e5630cadde11c, type: 2}
   poppinsSprite: {fileID: -3404470936013661032, guid: f3068ef65cca27341a524dfc26a97f4b, type: 3}
   poppinsAnimator: {fileID: 9100000, guid: 0fe5c94b498e67a4b9710c5588e877db, type: 2}
+  harrySprite: {fileID: 5671215016969957970, guid: 39fae5ffaee42ad47bfbaf837a6b33e0, type: 3}
+  harryAnimator: {fileID: 9100000, guid: e5a09036a99be3e4084d4ec1b091f4d3, type: 2}
+  noivaSprite: {fileID: -7651485950722454462, guid: f6d86ddde838e9b4bbc7c8169c7622ca, type: 3}
+  noivaAnimator: {fileID: 9100000, guid: 63ec3f33a38253643adfdeda79a39c69, type: 2}
   spriteRenderer: {fileID: 1833092587}
   sprite1: {fileID: 21300000, guid: dd43b40c5a91348408fb4bb865393bb6, type: 3}
   sprite2: {fileID: 21300000, guid: e0393230644c7484c8adb57efae96e80, type: 3}
@@ -509,15 +513,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 5033494096316326780, guid: 776a01e11ab52a2419bf69fc5708f488, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.95, y: 3}
+  m_Size: {x: 1.49, y: 1.44}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &934575696
@@ -545,7 +549,7 @@ Animator:
   m_GameObject: {fileID: 934575694}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1164ba06abc4edb4083e589d8f5669a7, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -615,12 +619,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: -3404470936013661032, guid: f3068ef65cca27341a524dfc26a97f4b, type: 3}
+  m_Sprite: {fileID: -8277572658238836196, guid: aacd1d4dc31f132418859350867fef61, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.45, y: 2.6}
+  m_Size: {x: 0.56, y: 0.59}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -651,7 +655,7 @@ Animator:
   m_GameObject: {fileID: 997377347}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0fe5c94b498e67a4b9710c5588e877db, type: 2}
+  m_Controller: {fileID: 9100000, guid: 63ec3f33a38253643adfdeda79a39c69, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

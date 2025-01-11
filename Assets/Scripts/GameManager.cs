@@ -48,6 +48,14 @@ public class GameManager : MonoBehaviour
     public Sprite poppinsSprite;
     public RuntimeAnimatorController poppinsAnimator;
 
+    [Header("Harry")]
+    public Sprite harrySprite;
+    public RuntimeAnimatorController harryAnimator;
+
+    [Header("Noiva")]
+    public Sprite noivaSprite;
+    public RuntimeAnimatorController noivaAnimator;
+
     public SpriteRenderer spriteRenderer;
 
     public Sprite sprite1;
@@ -232,6 +240,32 @@ public class GameManager : MonoBehaviour
                     player.transform.position = new Vector2(-8, -6);//feito
                 }
                 break;
+            case 9: // Harry
+                spriteRenderer.sprite = harrySprite;
+                animator.runtimeAnimatorController = harryAnimator;
+                if (isPlayer1)
+                {
+                    player.transform.position = new Vector2(-14, -6);//feito
+
+                }
+                else
+                {
+                    player.transform.position = new Vector2(-8, -6);//feito
+                }
+                break;
+            case 10: // Noiva
+                spriteRenderer.sprite = noivaSprite;
+                animator.runtimeAnimatorController = noivaAnimator;
+                if (isPlayer1)
+                {
+                    player.transform.position = new Vector2(-15, -6);//feito
+
+                }
+                else
+                {
+                    player.transform.position = new Vector2(-9, -6);//feito
+                }
+                break;
             default:
                 Debug.LogWarning($"Character ID {characterId} inválido.");
                 break;
@@ -297,6 +331,16 @@ public class GameManager : MonoBehaviour
                         animator2.SetBool("winner", false);
                         Debug.Log("Fight 1 vs 7 started!");
                         break;
+                    case 9:// Harry
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
+                        Debug.Log("Fight 1 vs 7 started!");
+                        break;
+                    case 10://Noiva
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
+                        Debug.Log("Fight 1 vs 7 started!");
+                        break;
                     default:
                         Debug.Log("Invalid match!");
                         break;
@@ -342,6 +386,16 @@ public class GameManager : MonoBehaviour
                         Debug.Log("Fight 1 vs 7 started!");
                         break;
                     case 8:// Poppins
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
+                        Debug.Log("Fight 1 vs 7 started!");
+                        break;
+                    case 9:// Harry
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
+                        Debug.Log("Fight 1 vs 7 started!");
+                        break;
+                    case 10://Noiva
                         animator1.SetBool("winner", true);
                         animator2.SetBool("winner", false);
                         Debug.Log("Fight 1 vs 7 started!");
@@ -395,6 +449,16 @@ public class GameManager : MonoBehaviour
                         animator2.SetBool("winner", false);
                         Debug.Log("Fight 1 vs 7 started!");
                         break;
+                    case 9:// Harry
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
+                        Debug.Log("Fight 1 vs 7 started!");
+                        break;
+                    case 10://Noiva
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
+                        Debug.Log("Fight 1 vs 7 started!");
+                        break;
                     default:
                         Debug.Log("Invalid match!");
                         break;
@@ -440,6 +504,16 @@ public class GameManager : MonoBehaviour
                         Debug.Log("Fight 1 vs 7 started!");
                         break;
                     case 8:// Poppins
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
+                        Debug.Log("Fight 1 vs 7 started!");
+                        break;
+                    case 9:// Harry
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
+                        Debug.Log("Fight 1 vs 7 started!");
+                        break;
+                    case 10://Noiva
                         animator1.SetBool("winner", true);
                         animator2.SetBool("winner", false);
                         Debug.Log("Fight 1 vs 7 started!");
@@ -493,6 +567,16 @@ public class GameManager : MonoBehaviour
                         animator2.SetBool("winner", false);
                         Debug.Log("Fight 1 vs 7 started!");
                         break;
+                    case 9:// Harry
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
+                        Debug.Log("Fight 1 vs 7 started!");
+                        break;
+                    case 10://Noiva
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
+                        Debug.Log("Fight 1 vs 7 started!");
+                        break;
                     default:
                         Debug.Log("Invalid match!");
                         break;
@@ -538,6 +622,16 @@ public class GameManager : MonoBehaviour
                         Debug.Log("Fight 1 vs 7 started!");
                         break;
                     case 8:// Poppins
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
+                        Debug.Log("Fight 1 vs 7 started!");
+                        break;
+                    case 9:// Harry
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
+                        Debug.Log("Fight 1 vs 7 started!");
+                        break;
+                    case 10://Noiva
                         animator1.SetBool("winner", true);
                         animator2.SetBool("winner", false);
                         Debug.Log("Fight 1 vs 7 started!");
@@ -590,6 +684,16 @@ public class GameManager : MonoBehaviour
                         animator2.SetBool("winner", false);
                         Debug.Log("Fight 1 vs 7 started!");
                         break;
+                    case 9:// Harry
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
+                        Debug.Log("Fight 1 vs 7 started!");
+                        break;
+                    case 10://Noiva
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
+                        Debug.Log("Fight 1 vs 7 started!");
+                        break;
                     default:
                         Debug.Log("Invalid match!");
                         break;
@@ -638,12 +742,137 @@ public class GameManager : MonoBehaviour
                         animator2.SetBool("winner", true);
                         Debug.Log("Fight 1 vs 7 started!");
                         break;
+                    case 9:// Harry
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
+                        Debug.Log("Fight 1 vs 7 started!");
+                        break;
+                    case 10://Noiva
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
+                        Debug.Log("Fight 1 vs 7 started!");
+                        break;
                     default:
                         Debug.Log("Invalid match!");
                         break;
                 }
                 break;
-
+            case 9:// Harry
+                switch (p2)
+                {
+                    case 1:
+                        animator1.SetBool("winner", false);
+                        animator2.SetBool("winner", true);
+                        Debug.Log("Fight 6 vs 1 started!");
+                        break;
+                    case 2:
+                        animator1.SetBool("winner", false);
+                        animator2.SetBool("winner", true);
+                        Debug.Log("Fight 6 vs 2 started!");
+                        break;
+                    case 3:
+                        animator1.SetBool("winner", false);
+                        animator2.SetBool("winner", true);
+                        Debug.Log("Fight 6 vs 3 started!");
+                        break;
+                    case 4:
+                        animator1.SetBool("winner", false);
+                        animator2.SetBool("winner", true);
+                        Debug.Log("Fight 6 vs 4 started!");
+                        break;
+                    case 5:
+                        animator1.SetBool("winner", false);
+                        animator2.SetBool("winner", true);
+                        Debug.Log("Fight 6 vs 5 started!");
+                        break;
+                    case 6:
+                        animator1.SetBool("winner", false);
+                        animator2.SetBool("winner", true);
+                        Debug.Log("Fight 6 vs 6 started!");
+                        break;
+                    case 7:// Yoda
+                        animator1.SetBool("winner", false);
+                        animator2.SetBool("winner", true);
+                        Debug.Log("Fight 1 vs 7 started!");
+                        break;
+                    case 8:// Poppins
+                        animator1.SetBool("winner", false);
+                        animator2.SetBool("winner", true);
+                        Debug.Log("Fight 1 vs 7 started!");
+                        break;
+                    case 9:// Harry
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
+                        Debug.Log("Fight 1 vs 7 started!");
+                        break;
+                    case 10://Noiva
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
+                        Debug.Log("Fight 1 vs 7 started!");
+                        break;
+                    default:
+                        Debug.Log("Invalid match!");
+                        break;
+                }
+                break;
+            case 10:// Noiva
+                switch (p2)
+                {
+                    case 1:
+                        animator1.SetBool("winner", false);
+                        animator2.SetBool("winner", true);
+                        Debug.Log("Fight 6 vs 1 started!");
+                        break;
+                    case 2:
+                        animator1.SetBool("winner", false);
+                        animator2.SetBool("winner", true);
+                        Debug.Log("Fight 6 vs 2 started!");
+                        break;
+                    case 3:
+                        animator1.SetBool("winner", false);
+                        animator2.SetBool("winner", true);
+                        Debug.Log("Fight 6 vs 3 started!");
+                        break;
+                    case 4:
+                        animator1.SetBool("winner", false);
+                        animator2.SetBool("winner", true);
+                        Debug.Log("Fight 6 vs 4 started!");
+                        break;
+                    case 5:
+                        animator1.SetBool("winner", false);
+                        animator2.SetBool("winner", true);
+                        Debug.Log("Fight 6 vs 5 started!");
+                        break;
+                    case 6:
+                        animator1.SetBool("winner", false);
+                        animator2.SetBool("winner", true);
+                        Debug.Log("Fight 6 vs 6 started!");
+                        break;
+                    case 7:// Yoda
+                        animator1.SetBool("winner", false);
+                        animator2.SetBool("winner", true);
+                        Debug.Log("Fight 1 vs 7 started!");
+                        break;
+                    case 8:// Poppins
+                        animator1.SetBool("winner", false);
+                        animator2.SetBool("winner", true);
+                        Debug.Log("Fight 1 vs 7 started!");
+                        break;
+                    case 9:// Harry
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
+                        Debug.Log("Fight 1 vs 7 started!");
+                        break;
+                    case 10://Noiva
+                        animator1.SetBool("winner", true);
+                        animator2.SetBool("winner", false);
+                        Debug.Log("Fight 1 vs 7 started!");
+                        break;
+                    default:
+                        Debug.Log("Invalid match!");
+                        break;
+                }
+                break;
             default:
                 Debug.Log("Invalid player selection!");
                 break;
