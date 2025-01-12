@@ -35,7 +35,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 100
+    spritePixelsToUnits: 20
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638722134158797020
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -123,16 +123,136 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: iceking versao morte_Frame_0
     originalName: 
-    pivot: {x: 2.285235, y: 0.5763889}
+    pivot: {x: 0.57575756, y: -0.19298247}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 124
+      width: 33
+      height: 57
+    spriteID: c7cb44f847913594a8bba329d89f3194
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 124}
+  - name: iceking versao morte_Frame_1
+    originalName: 
+    pivot: {x: 0.6764706, y: -0.24074075}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 45
+      y: 124
+      width: 34
+      height: 54
+    spriteID: b92f8cc2dbac26e4f8ca56f04a1000b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 45, y: 124}
+  - name: iceking versao morte_Frame_2
+    originalName: 
+    pivot: {x: 0.7058823, y: -0.29411766}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 45
+      y: 186
+      width: 34
+      height: 51
+    spriteID: 0a74797f1a3c44f48b853855abc5cce7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 45, y: 186}
+  - name: iceking versao morte_Frame_3
+    originalName: 
+    pivot: {x: 0.7058823, y: -0.3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 87
+      y: 124
+      width: 34
+      height: 50
+    spriteID: 1ca598e4ee81d354bbb1c499fedf9c9d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 87, y: 124}
+  - name: iceking versao morte_Frame_4
+    originalName: 
+    pivot: {x: 0.5434783, y: -0.28125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 4
+      width: 46
+      height: 32
+    spriteID: cac5be2e888a11d45ae8fd16759a03bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 4}
+  - name: iceking versao morte_Frame_5
+    originalName: 
+    pivot: {x: 0.5217391, y: -0.28125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 44
+      width: 46
+      height: 32
+    spriteID: bc922c4f489450f49b9226214155a381
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 44}
+  - name: iceking versao morte_Frame_6
+    originalName: 
+    pivot: {x: 0.5151515, y: -0.28125}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 149
-      height: 144
-    spriteID: a82576af835d4a44da81d251a6c1adda
+      width: 66
+      height: 32
+    spriteID: 71977bdf46084f647a8b8b3ad76a6472
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -141,138 +261,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: iceking versao morte_Frame_1
-    originalName: 
-    pivot: {x: 2.1915584, y: 0.56060606}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 156
-      width: 154
-      height: 132
-    spriteID: 8770d3dcd7594854482b443c030f3278
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 156}
-  - name: iceking versao morte_Frame_2
-    originalName: 
-    pivot: {x: 8.4625, y: -0.11764706}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 296
-      width: 40
-      height: 51
-    spriteID: b3f0144b8df9d64489acdece5cb9c537
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 296}
-  - name: iceking versao morte_Frame_3
-    originalName: 
-    pivot: {x: 8.907895, y: -0.12}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 355
-      width: 38
-      height: 50
-    spriteID: 8d1301c0199eae745af0d129b72ed2f6
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 355}
-  - name: iceking versao morte_Frame_4
-    originalName: 
-    pivot: {x: 7.380435, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 52
-      y: 296
-      width: 46
-      height: 32
-    spriteID: d3013329b053c624295bc2be67d2fbf8
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 52, y: 296}
-  - name: iceking versao morte_Frame_5
-    originalName: 
-    pivot: {x: 7.3586955, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 52
-      y: 336
-      width: 46
-      height: 32
-    spriteID: 08d70dbdaefa21f4e9dbbc4a84912e36
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 52, y: 336}
-  - name: iceking versao morte_Frame_6
-    originalName: 
-    pivot: {x: 5.280303, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 161
-      y: 4
-      width: 66
-      height: 32
-    spriteID: 253789ddbc502de4fb62f2f1d205fccc
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 161, y: 4}
   - name: iceking versao morte_Frame_7
     originalName: 
-    pivot: {x: 5.280303, y: 0}
+    pivot: {x: 0.5151515, y: -0.28125}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 161
+      x: 4
       y: 44
       width: 66
       height: 32
-    spriteID: db032c23794f5734ebd60da8812ff186
+    spriteID: 48abb78befbd33b4197786ff9922cdde
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -280,19 +280,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 161, y: 44}
+    uvTransform: {x: 4, y: 44}
   - name: iceking versao morte_Frame_8
     originalName: 
-    pivot: {x: 5.280303, y: 0}
+    pivot: {x: 0.5151515, y: -0.28125}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 161
+      x: 4
       y: 84
       width: 66
       height: 32
-    spriteID: de282b34de95e9344854e9ce1dc5bb6e
+    spriteID: f651cb7ebdcfa1a43ad7638ca91f9966
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -300,7 +300,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 161, y: 84}
+    uvTransform: {x: 4, y: 84}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -314,87 +314,111 @@ ScriptedImporter:
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 12
-        y: -83
-        width: 149
-        height: 144
-      spriteId: a82576af835d4a44da81d251a6c1adda
+        x: 26
+        y: 11
+        width: 33
+        height: 57
+      spriteId: c7cb44f847913594a8bba329d89f3194
     - name: iceking versao morte_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
-        x: 15
-        y: -74
-        width: 154
-        height: 132
-      spriteId: 8770d3dcd7594854482b443c030f3278
+        x: 22
+        y: 13
+        width: 34
+        height: 54
+      spriteId: b92f8cc2dbac26e4f8ca56f04a1000b8
     - name: iceking versao morte_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
-        x: 14
-        y: 6
-        width: 40
+        x: 21
+        y: 15
+        width: 34
         height: 51
-      spriteId: b3f0144b8df9d64489acdece5cb9c537
+      spriteId: 0a74797f1a3c44f48b853855abc5cce7
     - name: iceking versao morte_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
-        x: 14
-        y: 6
-        width: 38
+        x: 21
+        y: 15
+        width: 34
         height: 50
-      spriteId: 8d1301c0199eae745af0d129b72ed2f6
+      spriteId: 1ca598e4ee81d354bbb1c499fedf9c9d
     - name: iceking versao morte_Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
-        x: 13
-        y: 0
+        x: 20
+        y: 9
         width: 46
         height: 32
-      spriteId: d3013329b053c624295bc2be67d2fbf8
+      spriteId: cac5be2e888a11d45ae8fd16759a03bc
     - name: iceking versao morte_Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
-        x: 14
-        y: 0
+        x: 21
+        y: 9
         width: 46
         height: 32
-      spriteId: 08d70dbdaefa21f4e9dbbc4a84912e36
+      spriteId: bc922c4f489450f49b9226214155a381
     - name: iceking versao morte_Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
-        x: 4
-        y: 0
+        x: 11
+        y: 9
         width: 66
         height: 32
-      spriteId: 253789ddbc502de4fb62f2f1d205fccc
+      spriteId: 71977bdf46084f647a8b8b3ad76a6472
     - name: iceking versao morte_Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
-        x: 4
-        y: 0
+        x: 11
+        y: 9
         width: 66
         height: 32
-      spriteId: db032c23794f5734ebd60da8812ff186
+      spriteId: 48abb78befbd33b4197786ff9922cdde
     - name: iceking versao morte_Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
-        x: 4
-        y: 0
+        x: 11
+        y: 9
         width: 66
         height: 32
-      spriteId: de282b34de95e9344854e9ce1dc5bb6e
+      spriteId: f651cb7ebdcfa1a43ad7638ca91f9966
     linkedCells: []
     parentIndex: -1
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 705, y: 74}
+  canvasSize: {x: 90, y: 90}
