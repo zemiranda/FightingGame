@@ -1,0 +1,574 @@
+fileFormatVersion: 2
+guid: 248a0b71fba760b4bb7b52728607eb84
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: frankensteindoctorattack_Frame_0
+    originalName: 
+    pivot: {x: 0.5416667, y: -0.16949153}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 143
+      y: 4
+      width: 36
+      height: 59
+    spriteID: 250113e556d5f0149887a6f0526bf97a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 143, y: 4}
+  - name: frankensteindoctorattack_Frame_1
+    originalName: 
+    pivot: {x: 0.5694445, y: -0.18181817}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 187
+      y: 135
+      width: 36
+      height: 55
+    spriteID: 6c11b5574004255438e748b914b3fea9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 187, y: 135}
+  - name: frankensteindoctorattack_Frame_2
+    originalName: 
+    pivot: {x: 0.55714285, y: -0.15384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 4
+      width: 35
+      height: 65
+    spriteID: 4acb2f257f0ce6246a0089835a6464d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 4}
+  - name: frankensteindoctorattack_Frame_3
+    originalName: 
+    pivot: {x: 0.5243903, y: -0.1724138}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 41
+      height: 58
+    spriteID: c10ffd2f264d65642850af111ccb4ebb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: frankensteindoctorattack_Frame_4
+    originalName: 
+    pivot: {x: 0.5625, y: -0.16949153}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 70
+      width: 40
+      height: 59
+    spriteID: 9098f81f19c961f4b880ab6dc92f1598
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 70}
+  - name: frankensteindoctorattack_Frame_5
+    originalName: 
+    pivot: {x: 0.5625, y: -0.16949153}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 137
+      width: 40
+      height: 59
+    spriteID: 32205683e879aee46a0b0e2391613948
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 137}
+  - name: frankensteindoctorattack_Frame_6
+    originalName: 
+    pivot: {x: 0.5540541, y: -0.16949153}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 68
+      width: 37
+      height: 59
+    spriteID: fc79e9ddcb71ff84ca62cc6655395c31
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 68}
+  - name: frankensteindoctorattack_Frame_8
+    originalName: 
+    pivot: {x: 0.51470596, y: -0.17741936}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 77
+      width: 34
+      height: 62
+    spriteID: 06a8b92846080494b931da63eeeee183
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 77}
+  - name: frankensteindoctorattack_Frame_9
+    originalName: 
+    pivot: {x: 0.51470596, y: -0.17741936}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 53
+      y: 147
+      width: 34
+      height: 62
+    spriteID: 8eebf2742480ab648af31a8ca9884059
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 53, y: 147}
+  - name: frankensteindoctorattack_Frame_10
+    originalName: 
+    pivot: {x: 0.5540541, y: -0.19298247}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 187
+      y: 4
+      width: 37
+      height: 57
+    spriteID: e6b4fa70ff62fc6409c675e21d9c5461
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 187, y: 4}
+  - name: frankensteindoctorattack_Frame_11
+    originalName: 
+    pivot: {x: 0.5769231, y: -0.19642858}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 4
+      width: 39
+      height: 56
+    spriteID: e598bf3f312cdd84b9dfc22b10a2fef3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 4}
+  - name: frankensteindoctorattack_Frame_12
+    originalName: 
+    pivot: {x: 0.5540541, y: -0.18965518}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 135
+      width: 37
+      height: 58
+    spriteID: b0e471b07308f5b43a45428082e43180
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 96, y: 135}
+  - name: frankensteindoctorattack_Frame_13
+    originalName: 
+    pivot: {x: 0.5416667, y: -0.16949153}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 143
+      y: 71
+      width: 36
+      height: 59
+    spriteID: d11c33ee22673fe4eb0740450fded5af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 143, y: 71}
+  - name: frankensteindoctorattack_Frame_14
+    originalName: 
+    pivot: {x: 0.5416667, y: -0.16949153}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 143
+      y: 138
+      width: 36
+      height: 59
+    spriteID: 00fa53f0d6cb1364592d8c771880f98c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 143, y: 138}
+  - name: frankensteindoctorattack_Frame_7
+    originalName: 
+    pivot: {x: 0.5416667, y: -0.1724138}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 187
+      y: 69
+      width: 36
+      height: 58
+    spriteID: bc2951682ff3c0a4488319f2efe79819
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 187, y: 69}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1006803943
+    name: frankensteindoctorattack
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: frankensteindoctorattack_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 10
+        width: 36
+        height: 59
+      spriteId: 250113e556d5f0149887a6f0526bf97a
+    - name: frankensteindoctorattack_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 24
+        y: 10
+        width: 36
+        height: 55
+      spriteId: 6c11b5574004255438e748b914b3fea9
+    - name: frankensteindoctorattack_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 10
+        width: 35
+        height: 65
+      spriteId: 4acb2f257f0ce6246a0089835a6464d2
+    - name: frankensteindoctorattack_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 10
+        width: 41
+        height: 58
+      spriteId: c10ffd2f264d65642850af111ccb4ebb
+    - name: frankensteindoctorattack_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 10
+        width: 40
+        height: 59
+      spriteId: 9098f81f19c961f4b880ab6dc92f1598
+    - name: frankensteindoctorattack_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 10
+        width: 40
+        height: 59
+      spriteId: 32205683e879aee46a0b0e2391613948
+    - name: frankensteindoctorattack_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 24
+        y: 10
+        width: 37
+        height: 59
+      spriteId: fc79e9ddcb71ff84ca62cc6655395c31
+    - name: frankensteindoctorattack_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 27
+        y: 11
+        width: 34
+        height: 62
+      spriteId: 06a8b92846080494b931da63eeeee183
+    - name: frankensteindoctorattack_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 27
+        y: 11
+        width: 34
+        height: 62
+      spriteId: 8eebf2742480ab648af31a8ca9884059
+    - name: frankensteindoctorattack_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 24
+        y: 11
+        width: 37
+        height: 57
+      spriteId: e6b4fa70ff62fc6409c675e21d9c5461
+    - name: frankensteindoctorattack_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 22
+        y: 11
+        width: 39
+        height: 56
+      spriteId: e598bf3f312cdd84b9dfc22b10a2fef3
+    - name: frankensteindoctorattack_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 24
+        y: 11
+        width: 37
+        height: 58
+      spriteId: b0e471b07308f5b43a45428082e43180
+    - name: frankensteindoctorattack_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 10
+        width: 36
+        height: 59
+      spriteId: d11c33ee22673fe4eb0740450fded5af
+    - name: frankensteindoctorattack_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 10
+        width: 36
+        height: 59
+      spriteId: 00fa53f0d6cb1364592d8c771880f98c
+    - name: frankensteindoctorattack_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 10
+        width: 36
+        height: 58
+      spriteId: bc2951682ff3c0a4488319f2efe79819
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 89, y: 85}
